@@ -41,6 +41,22 @@
 coming soon
 ```
 
+
+## 🧠 Wrestler Roster Data
+
+- [WWE: World Wrestling Entertainment Roster](https://www.thesmackdownhotel.com/roster/?promotion=wwe&show=face-heel#nxt)
+- [AEW: All Elite Wrestling Roster](https://www.allelitewrestling.com/aew-roster)
+- [TNA: Total Nonstop Action Wrestling Roster](https://www.ringofhonor.com/roster)
+- [ROH: Ring of Honor Roster](https://www.thesmackdownhotel.com/roster/?promotion=roh&date=2025-10-05)
+- [NJPW: New Japan Pro Wrestling Roster](https://www.thesmackdownhotel.com/roster/?promotion=njpw&date=2025-10-05)
+- [NWA: National Wrestling Alliance Roster](https://www.thesmackdownhotel.com/roster/?promotion=nwa&date=2025-10-05)
+- [OVW: Ohio Valley Wrestling Roster](https://www.thesmackdownhotel.com/roster/?promotion=ovw&date=2025-10-05)
+- [AAA: Lucha Libre AAA Worldwide Roster](https://www.thesmackdownhotel.com/roster/?promotion=aaa&date=2025-10-05)
+- [AJPW: All Japan Pro Wrestling Roster](https://www.thesmackdownhotel.com/roster/?promotion=ajpw&date=2025-10-05#ajpw-all-8)
+- [NOAH: Pro Wrestling NOAH Roster](https://www.thesmackdownhotel.com/roster/?promotion=noah&date=2025-10-05)
+- [MLW: Major League Wrestling Roster](https://www.thesmackdownhotel.com/roster/?promotion=mlw&date=2025-10-05)
+- [FPW: Filipino Pro Wrestling Roster](https://www.filipinoprowrestling.com/roster)
+
 <!-- 🏆 Contributers down below -->
 # 🏆 Contributing     
 
