@@ -1,7 +1,7 @@
 <!-- Background github cover with short introduction down below -->
-<img src="https://github.com/flexycode/CCMACLRL_EXERCISES_COM231ML/blob/main/assets/Machine-Learning-BGCover.png" />
+<img src="assets/WWE-BGCover3.jpg" />
 
-# 💫 Machine Learning Final Project
+# 💫 WWE Superstar Popularity Prediction 
 
 <!-- Background github cover with short introduction down below 
 <img src="https://github.com/flexycode/CTINFMGL/blob/main/asset/Information-Management.png" />
@@ -13,6 +13,7 @@
 ### Professor: [Elizer Ponio Jr](https://github.com/robitussin/)     
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=UVJSA2N39NU&list=RDUVJSA2N39NU&start_radio=1)
 ### Prerequisite: [None](https://www.youtube.com/watch?v=v3BBE7wtuIM&list=RDv3BBE7wtuIM&start_radio=1)
+
 
 <!-- 🤖 Machine Learning 🤖 -->
 <div align="center">
@@ -34,8 +35,12 @@
 - [FAQ](#-faq)       
 - [Changelog](#-changelogs)   
 
+
 <!-- Introduction down below -->
 # 🧠 [Introduction](#introduction)
+
+<!-- Background github cover with short introduction down below -->
+<img src="assets/All-Wrestling-Brand.jpg" />
 
 ```
 coming soon
@@ -56,6 +61,10 @@ coming soon
 - [NOAH: Pro Wrestling NOAH Roster](https://www.thesmackdownhotel.com/roster/?promotion=noah&date=2025-10-05)
 - [MLW: Major League Wrestling Roster](https://www.thesmackdownhotel.com/roster/?promotion=mlw&date=2025-10-05)
 - [FPW: Filipino Pro Wrestling Roster](https://www.filipinoprowrestling.com/roster)
+
+
+<!-- Background github cover with short introduction down below -->
+<img src="assets/AEW-Dynamite.jpg" />
 
 <!-- 🏆 Contributers down below -->
 # 🏆 Contributing     
@@ -115,6 +124,10 @@ Coming Soon
 ```
 
 <!-- Always document your changes, pull-request, bugfix, updates, patch notes for this final project. Always use this "🧊 ML Project" for commiting message for "pushing code" or "Pull-request"   -->
+
+<!-- Background github cover with short introduction down below -->
+<img src="assets/TNA.jpg" />
+
 # 📫 Changelogs 
 Chronological list of updates, bug fixes, new features, and other modifications for our Machine Learning Project.
 
@@ -143,7 +156,7 @@ Always use this "🧊 Flight Booking" for commiting message for "Pull-request"
 
 <!-- Genshin Impact -->
 <div align="center">
-<img src="https://media.giphy.com/media/wcVQHVg5lYsCDkxz4J/giphy.gif?cid=ecf05e47yz4oc4o3pl85zwujqt2e6xumb1fhticxniefaqmu&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="300">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGxxeWR5bzJjajBnc3o5YTc5dGhzc2xsYWJ4aW5rOGZuamNtMjdnayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1rL7L4GaUTe55s5Sfm/giphy.gif" width="300">
 </div>
 
 <!-- End point line insert Comeback again next time, feel free to modify this  -->
