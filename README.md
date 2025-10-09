@@ -17,9 +17,9 @@
 
 <!-- 🤖 Machine Learning 🤖 -->
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3N3lpMjVqNnE3dWh4Mzk0cnF4N2RhcWJudmxvc3RqMW0waHFiN3R5MCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/jY1r8EHyk4Ye9KUOUb/giphy.gif" width="250">
-<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3b3pjaDIydDdpZXBnZWRxMWVuOWMyeDV1dHU0c3N5N243eDcyaWVkZCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/rYchHXYdIDp3Qpt3IK/giphy.gif" width="300">
-<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3N3lpMjVqNnE3dWh4Mzk0cnF4N2RhcWJudmxvc3RqMW0waHFiN3R5MCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/jY1r8EHyk4Ye9KUOUb/giphy.gif" width="250">
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZXJna2t4azF0d3Qxc3c4cnQyMzNpZTFiZmJtYWQ2Znk5ZTIyZXM3dyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/POImbcaDpzBrk5jDCD/giphy.gif" width="250">
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3c2sxYjJ0ZXNxNzFtb2tweWthdDk1Y2V1dnVuZmo1d3YxNHloZXc1ZyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/j2k3CEUW5qga5nHUml/giphy.gif" width="300">
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZXJna2t4azF0d3Qxc3c4cnQyMzNpZTFiZmJtYWQ2Znk5ZTIyZXM3dyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/5bgVvcQz3gFgindtSk/giphy.gif" width="250">
 </div>
 
 
@@ -46,6 +46,8 @@
 coming soon
 ```
 
+<!-- Background github cover with short introduction down below -->
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXk2cnByenBzdHR2Y2plYmxyYnVoY2pjaWRlOTRjcTBrMWV3czI0diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TH1EAFhvE2ucRSMkPC/giphy.gif" width="300">
 
 ## 🧠 Wrestler Roster Data
 
@@ -110,6 +112,13 @@ Some changes need to be address
 <!--  License will provide soon -->
 # 🔑 License     
 
+<!-- 🤖 Machine Learning 🤖 -->
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3M3A1bG92MXN3dzB5ZTJwaGs5YXc4dHh4dGxram13Y3JiZWd0YXRxMyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/elu4qryud82iJDlb3Q/giphy.gif" width="250">
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZXJna2t4azF0d3Qxc3c4cnQyMzNpZTFiZmJtYWQ2Znk5ZTIyZXM3dyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/C9M9Kk0mF3o7C8vngg/giphy.gif" width="300">
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3M3A1bG92MXN3dzB5ZTJwaGs5YXc4dHh4dGxram13Y3JiZWd0YXRxMyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/1JfIhHFTqPCKm6dd6Q/giphy.gif" width="250">
+</div>
+
 ```
 Coming Soon In the License tab 
 ```
@@ -157,6 +166,7 @@ Always use this "🧊 Flight Booking" for commiting message for "Pull-request"
 <!-- Genshin Impact -->
 <div align="center">
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGxxeWR5bzJjajBnc3o5YTc5dGhzc2xsYWJ4aW5rOGZuamNtMjdnayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1rL7L4GaUTe55s5Sfm/giphy.gif" width="300">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXk2cnByenBzdHR2Y2plYmxyYnVoY2pjaWRlOTRjcTBrMWV3czI0diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TH1EAFhvE2ucRSMkPC/giphy.gif" width="300">
 </div>
 
 <!-- End point line insert Comeback again next time, feel free to modify this  -->
