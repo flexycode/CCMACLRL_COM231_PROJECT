@@ -93,7 +93,7 @@ If you would like to contribute to the Flight Booking App, please follow these s
 ### Special thanks to all my groupmates: 
  * ####  😎 [Jay Arre Talosig](https://github.com/flexycode) - Machine Learning Engineer | Blockchain Developer | Bioinformatics Scientist    
  * ####  🧭 [Queen Maegan Pedido](https://github.com/mgnpdd) - Machine Learning Engineer | Software Engineer 
- * ####  💥 [Moira Mercado](https://github.com/mnmzz) - Machine Learning Engineer Engineer | Software Engineer 
+ * ####  💥 [Moira Mercado](https://github.com/mnmzz) - Machine Learning Engineer | Software Engineer 
  * ####  🎲 [James Adrian Castro](https://github.com/debug-phantom) - Machine Learning Engineer | Software Engineer
 
 # 🛸 FAQ
