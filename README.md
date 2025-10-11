@@ -1,7 +1,7 @@
 <!-- Background github cover with short introduction down below -->
 <img src="assets/WWE-BGCover3.jpg" />
 
-# 💫 WWE Superstar Popularity Prediction 
+# 💫 WWE Superstar Popularity Tier Prediction 
 
 <!-- Background github cover with short introduction down below 
 <img src="https://github.com/flexycode/CTINFMGL/blob/main/asset/Information-Management.png" />
@@ -42,14 +42,40 @@
 <!-- Background github cover with short introduction down below -->
 <img src="assets/All-Wrestling-Brand.jpg" />
 
-```
-coming soon
-```
+## 📋 Project Overview
+
+A comprehensive machine learning system that predicts WWE superstar popularity tiers (Main Eventer, Midcard, Enhancement) based on career statistics and performance metrics. This multi-class classification project demonstrates end-to-end ML pipeline development with robust validation and deployment-ready features.
 
 <!-- Background github cover with short introduction down below -->
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXk2cnByenBzdHR2Y2plYmxyYnVoY2pjaWRlOTRjcTBrMWV3czI0diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TH1EAFhvE2ucRSMkPC/giphy.gif" width="300">
 
-## 🧠 Wrestler Roster Data
+## 🎯 Business Problem
+
+WWE management needs to understand what factors contribute to a wrestler's success and popularity tier placement. This model helps in:
+- Talent development and scouting
+- Brand strategy optimization
+- Performance metric analysis
+- Predictive roster managemen
+
+## 📊 Dataset Description
+
+### Primary Dataset: `wwe_rosters.csv`
+- **185 wrestlers** with comprehensive career statistics
+- **15+ features** including match history, title reigns, social media presence
+- **Target Variable**: `popularity_tier` (Main Eventer, Midcard, Enhancement)
+
+### External Validation: `other_brand_rosters.csv`
+- **550 wrestlers** from various wrestling promotions (AEW, NJPW, Impact, etc.)
+- Used for model generalization testing
+
+### Key Features:
+- **Career Metrics**: `years_active`, `total_matches`, `career_win_percentage`
+- **Accolades**: `world_title_reigns`, `secondary_title_reigns`, `tag_title_reigns`
+- **Performance**: `avg_matches_per_month`, `main_evented_ppv`
+- **Popularity**: `social_media_followers_millions`
+- **Demographics**: `age`, `weight_class`, `brand`
+
+## 🧠 Wrestler Roster Data source link
 
 - [WWE: World Wrestling Entertainment Roster](https://www.thesmackdownhotel.com/roster/?promotion=wwe&show=face-heel#nxt)
 - [AEW: All Elite Wrestling Roster](https://www.allelitewrestling.com/aew-roster)
@@ -63,6 +89,71 @@ coming soon
 - [NOAH: Pro Wrestling NOAH Roster](https://www.thesmackdownhotel.com/roster/?promotion=noah&date=2025-10-05)
 - [MLW: Major League Wrestling Roster](https://www.thesmackdownhotel.com/roster/?promotion=mlw&date=2025-10-05)
 - [FPW: Filipino Pro Wrestling Roster](https://www.filipinoprowrestling.com/roster)
+
+
+## 🏗️ Model Architecture
+
+### Multi-class Classification Approach
+
+```
+Data Pipeline:
+Raw Data → Preprocessing → Feature Engineering → Model Training → Evaluation → Deployment
+
+Model Stack:
+1. Baseline Models (6 classifiers)
+2. Hyperparameter Tuning (GridSearchCV)
+3. Ensemble Selection
+4. External Validation
+```
+
+
+### Algorithm Selection Rationale
+
+| Model | Strengths | Use Case |
+|-------|-----------|----------|
+| **Random Forest** | Handles non-linearity, feature importance | Primary model |
+| **SVM** | High-dimensional spaces, kernel tricks | Complex patterns |
+| **Gradient Boosting** | Sequential learning, high accuracy | Final ensemble |
+| **Logistic Regression** | Interpretability, baseline | Benchmark |
+
+## 🔧 Technical Implementation
+
+### 1. Data Preprocessing Pipeline
+
+```python
+# Robust preprocessing with error handling
+def preprocess_data(df):
+    # Handle missing values (median imputation)
+    # Feature engineering (matches_per_year, titles_per_year)
+    # Categorical encoding (LabelEncoder)
+    # Outlier detection and treatment
+    # Feature scaling (StandardScaler)
+```
+
+### 2. Feature Engineering
+
+#### Created Features:
+
+- `matches_per_year`: Career activity density
+
+- `titles_per_year`: Championship efficiency
+
+- `main_event_frequency`: Main event appearance rate
+
+### 3. Model Training Strategy
+
+```
+# Multi-stage training approach
+1. Baseline model comparison (6 algorithms)
+2. Hyperparameter tuning (GridSearchCV, 5-fold CV)
+3. Cross-validation performance analysis
+4. Final model selection based on multiple metrics
+```
+
+### 4. Evaluation Framework
+
+#### Metrics Tracked:
+
 
 
 <!-- Background github cover with short introduction down below -->
