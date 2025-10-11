@@ -154,10 +154,191 @@ def preprocess_data(df):
 
 #### Metrics Tracked:
 
+- Accuracy, Precision, Recall, F1-Score (weighted)
 
+- Cross-validation scores (mean ± std)
+
+- Confusion matrix analysis
+
+- Feature importance interpretation
+
+## 📈 Model Performance
+
+### Final Results
+
+| Model                     | Accuracy | Precision | Recall | F1-Score |	CV Score    |
+|---------------------------|----------|-----------|--------|----------|----------------|
+| **Random Forest (Tuned)** | 0.9714   | 0.9700	   | 0.9700	| 0.9700   | 0.9685 ± 0.012 |
+| **Gradient Boosting**     | 0.9693   | 0.9690	   | 0.9690	| 0.9690   | 0.9662 ± 0.014 |
+| **SVM (RBF)**             | 0.9684   | 0.9680	   | 0.9680	| 0.9680   | 0.9658 ± 0.013 |
+
+### Key Insights from Feature Importance
+
+1. **Top Predictive Features:**
+
+- `total_title_reigns` (22.3%)
+
+- `main_evented_ppv` (18.7%)
+
+- `social_media_followers_millions` (15.2%)
+
+- `career_win_percentage` (12.8%)
+
+2. **Success Patterns:**
+
+- Main Eventers: High title reigns + main event appearances
+
+- Midcard: Moderate titles + consistent performance
+
+- Enhancement: Limited accolades + lower visibility
+
+ ## 🚀 Deployment Features
+
+### Prediction API
+
+```
+def predict_wwe_popularity(wrestler_data):
+    """
+    Predict popularity tier for new wrestler statistics
+    
+    Args:
+        wrestler_data (dict): Career metrics and statistics
+    
+    Returns:
+        dict: Prediction with confidence scores
+    """
+```
+
+### Model Artifacts
+- Serialized model pipeline (`wwe_popularity_predictor.pkl`)
+
+- Feature scaler and encoders
+
+- Configuration files
+
+- Validation reports
+
+## 🔍 Validation Strategy
+1. **Internal Validation**
+- Train-test split (80-20)
+
+- Stratified sampling
+
+- 5-fold cross-validation
+
+- Classification reports per class
+
+2. **External Validation**
+- Other brand dataset (AEW, NJPW, etc.)
+
+- Cross-promotion generalization
+
+- Confidence score analysis
+
+- Prediction distribution analysis
+
+3. **Business Validation**
+- Feature importance alignment with domain knowledge
+
+- Prediction interpretability
+
+- Actionable insights generation
+
+## 📁 Project Structure
+
+```
+CCMACLRL_COM231_PROJECT/
+│
+├── assets/                      # Images and Background file
+│
+├── datasets/
+│   ├── wwe_rosters.csv          # Primary training data
+│   └── other_brand_rosters.csv  # External validation
+│
+├── models/
+│   ├── wwe_popularity_predictor.pkl
+│   └── training_logs/ [TBA EMPTY]
+│
+├── notebook/
+│   └── WWE_Popularity_Prediction.ipynb
+│
+├── src/                         # I will experiment this later
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── predict.py
+│   └── utils.py
+│
+├── tests/                       # I will experiment this later
+│   ├── test_preprocess.py
+│   └── test_model.py
+│
+├── docs/                        # Empty pa, this folder is for research paper
+│   ├── model_card.md
+│   └── api_documentation.md
+│
+├── LICENCE
+└── README.md
+```
 
 <!-- Background github cover with short introduction down below -->
 <img src="assets/AEW-Dynamite.jpg" />
+
+## 🛠️ Installation & Usage
+
+### Prerequisites
+
+```
+Python 3.8+
+scikit-learn 1.5.2
+pandas 2.2.2
+numpy 1.24.3
+matplotlib 3.8.0
+seaborn 0.13.0
+```
+
+### Quick Start
+```
+from src.predict import WWEPopularityPredictor
+
+# Load trained model
+predictor = WWEPopularityPredictor.load('models/wwe_popularity_predictor.pkl')
+
+# Make prediction
+wrestler_stats = {
+    'years_active': 8,
+    'total_matches': 450,
+    'world_title_reigns': 2,
+    'social_media_followers_millions': 2.5
+}
+
+prediction = predictor.predict(wrestler_stats)
+print(f"Predicted Tier: {prediction['tier']}")
+print(f"Confidence: {prediction['confidence']:.2%}")
+```
+
+## 📊 Results Interpretation
+### Model Confidence Levels
+- **High Confidence (>90%)**: Clear career patterns
+
+- **Medium Confidence (70-90%)**: Borderline cases
+
+- **Low Confidence (<70%)**: Requires manual review
+
+### Business Applications
+- **Talent Scouting**: Identify potential main eventers
+
+- **Contract Negotiations**: Data-driven valuation
+
+- **Storyline Planning**: Popularity-based booking
+
+- **Brand Strategy**: Cross-promotion analysis
+
+
+# 🔮 Future Enhancements
+
+```
+TBA
+```
 
 <!-- 🏆 Contributers down below -->
 # 🏆 Contributing     
@@ -169,6 +350,7 @@ If you would like to contribute to the Flight Booking App, please follow these s
 3. Make your changes and commit them.
 4. Push your changes to your forked repository.
 5. Submit a pull request to the main repository.
+
 
 ### 🧠 Submitting Changes
 
@@ -201,7 +383,20 @@ Some changes need to be address
 ###### 🤖 If you encounter any issues or have suggestions, please open an issue to let us know.
 
 <!--  License will provide soon -->
-# 🔑 License     
+# 🔑 License & Citation
+
+This project is developed for educational and portfolio purposes. WWE data is used under fair use for academic research.
+
+```
+@misc{wwe_popularity_2025,
+  title = {WWE Superstar Popularity Tier Prediction},
+  author = {Jay Arre Talosig},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/flexycode/CCMACLRL_COM231_PROJECT}}
+}
+```
 
 <!-- 🤖 Machine Learning 🤖 -->
 <div align="center">
@@ -211,7 +406,7 @@ Some changes need to be address
 </div>
 
 ```
-Coming Soon In the License tab 
+Check the License tab for copyright permission
 ```
 
 # 🔭 Acknowledgements     
@@ -234,11 +429,18 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 ## 💻 [01.0.0] - 2025-09-29      
 ### Role & Project Management
 - 💻 Final Project requirements for our project
-- ✨ TBA
-- ✨ TBA
+- ✨ RAW
+- ✨ SmackDown
+- ✨ NXT
+
+## 💻 [02.0.0] - 2025-10-11      
+### Development Progress
+- 💻 Uploaded the Python Notebook
 
 ### Commit message for pushing or pull-request  
 🧊 ML Final Project
+
+⭐ If you find this project useful, please give it a star on GitHub!
 
 <!-- This comment is intended for commiting message in pull-request 
 Always use this "🧊 Flight Booking" for commiting message for "Pull-request"
