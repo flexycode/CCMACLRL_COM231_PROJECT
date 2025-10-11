@@ -1,0 +1,551 @@
+wrestler_id,wrestler_name,brand,debut_year,years_active,total_matches,world_title_reigns,secondary_title_reigns,tag_title_reigns,total_title_reigns,current_champion,win_rate,finisher_popularity,social_media_followers_millions,main_evented_ppv,age,weight_class,popularity_tier
+1,Kenny Omega,AEW,2000,25,980,5,3,4,12,0,0.72,4.8,1.8,45,41,Heavyweight,Main Eventer
+2,Chris Jericho,AEW,1990,35,1250,8,5,6,19,0,0.68,4.5,3.2,68,54,Heavyweight,Main Eventer
+3,Jon Moxley,AEW,2004,21,920,6,4,3,13,1,0.71,4.3,1.5,38,39,Heavyweight,Main Eventer
+4,Bryan Danielson,AEW,1999,26,1100,6,4,2,12,0,0.69,4.6,2.1,42,43,Heavyweight,Main Eventer
+5,Adam Cole,AEW,2008,17,680,4,3,2,9,0,0.65,4.2,1.9,25,35,Heavyweight,Main Eventer
+6,Maxwell Jacob Friedman,AEW,2015,10,420,3,2,1,6,0,0.67,4.4,1.2,18,29,Heavyweight,Main Eventer
+7,Saraya,AEW,2005,20,580,2,3,1,6,0,0.61,3.8,2.3,15,38,Women's,Main Eventer
+8,Hikaru Shida,AEW,2008,17,520,2,2,1,5,1,0.66,3.9,0.8,12,37,Women's,Main Eventer
+9,Thunder Rosa,AEW,2006,19,480,1,2,1,4,0,0.63,3.7,0.7,10,39,Women's,Main Eventer
+10,Samoa Joe,AEW,1999,26,950,7,4,5,16,1,0.7,4.7,1.4,52,45,Heavyweight,Main Eventer
+11,Wardlow,AEW,2014,11,320,1,1,0,2,0,0.75,4.1,0.6,8,36,Heavyweight,Main Eventer
+12,Powerhouse Hobbs,AEW,2016,9,280,0,1,0,1,0,0.69,3.9,0.4,6,33,Heavyweight,Midcard
+13,Ricky Starks,AEW,2012,13,380,0,2,1,3,0,0.64,3.8,0.7,9,35,Heavyweight,Midcard
+14,Claudio Castagnoli,AEW,2000,25,890,3,4,5,12,0,0.68,4.3,0.9,35,44,Heavyweight,Main Eventer
+15,Wheeler Yuta,AEW,2016,9,240,0,1,0,1,0,0.59,3.4,0.3,4,28,Heavyweight,Midcard
+16,Orange Cassidy,AEW,2006,19,520,1,2,1,4,0,0.62,4,1,18,40,Heavyweight,Midcard
+17,Darby Allin,AEW,2015,10,380,1,1,0,2,0,0.61,4.2,1.3,15,32,Heavyweight,Midcard
+18,Sting,AEW,1985,40,980,8,5,6,19,0,0.65,4.8,2.5,95,65,Heavyweight,Legend
+19,Christian Cage,AEW,1995,30,860,4,4,3,11,1,0.67,4.1,1.8,48,51,Heavyweight,Main Eventer
+20,Luchasaurus,AEW,2009,16,420,0,1,1,2,0,0.66,3.7,0.5,8,39,Heavyweight,Midcard
+21,Malakai Black,AEW,2002,23,580,2,2,1,5,0,0.68,4,1.1,22,39,Heavyweight,Main Eventer
+22,Buddy Matthews,AEW,2008,17,460,0,1,1,2,0,0.63,3.6,0.4,10,35,Heavyweight,Midcard
+23,Brody King,AEW,2010,15,380,0,1,1,2,0,0.65,3.8,0.5,7,36,Heavyweight,Midcard
+24,Andrade El Idolo,AEW,2003,22,520,2,2,1,5,0,0.64,3.9,0.8,18,39,Heavyweight,Midcard
+25,Rush,AEW,2008,17,450,1,1,1,3,0,0.67,3.8,0.6,12,37,Heavyweight,Midcard
+26,Pac,AEW,2004,21,480,1,2,1,4,0,0.66,4.1,0.7,16,38,Heavyweight,Midcard
+27,Kip Sabian,AEW,2013,12,320,0,0,0,0,0,0.52,3,0.3,2,30,Heavyweight,Enhancement
+28,Miro,AEW,2004,21,520,1,1,0,2,0,0.69,3.9,0.9,14,39,Heavyweight,Midcard
+29,Kazuchika Okada,NJPW,2006,19,780,5,4,3,12,1,0.74,4.9,1.6,58,37,Heavyweight,Main Eventer
+30,Tetsuya Naito,NJPW,2001,24,850,4,3,4,11,0,0.71,4.7,1.4,55,42,Heavyweight,Main Eventer
+31,Hiroshi Tanahashi,NJPW,1999,26,920,8,5,5,18,0,0.7,4.8,2.3,75,48,Heavyweight,Legend
+32,Will Ospreay,NJPW,2012,13,580,3,3,2,8,0,0.73,4.8,1.2,35,31,Heavyweight,Main Eventer
+33,Shingo Takagi,NJPW,2001,24,680,2,2,3,7,0,0.69,4.3,0.9,32,41,Heavyweight,Main Eventer
+34,Sanada,NJPW,2006,19,620,2,2,2,6,0,0.67,4.1,0.8,28,40,Heavyweight,Main Eventer
+35,Minoru Suzuki,NJPW,1988,37,980,4,3,4,11,0,0.65,4.5,1.1,68,57,Heavyweight,Legend
+36,Tomohiro Ishii,NJPW,1996,29,780,1,2,2,5,0,0.64,4.2,0.7,42,49,Heavyweight,Midcard
+37,Hirooki Goto,NJPW,2003,22,720,2,3,3,8,0,0.66,4,0.6,38,45,Heavyweight,Midcard
+38,Yoshi-Hashi,NJPW,2006,19,580,0,1,2,3,0,0.58,3.5,0.4,15,39,Heavyweight,Midcard
+39,Jeff Cobb,NJPW,2009,16,520,0,1,1,2,0,0.67,4.1,0.5,18,42,Heavyweight,Midcard
+40,Great-O-Khan,NJPW,2014,11,320,0,1,1,2,0,0.61,3.6,0.3,8,33,Heavyweight,Midcard
+41,Aaron Henare,NJPW,2012,13,380,0,0,0,0,0,0.55,3.2,0.2,4,35,Heavyweight,Enhancement
+42,El Phantasmo,NJPW,2010,15,420,0,1,1,2,0,0.63,3.8,0.4,10,36,Junior Heavyweight,Midcard
+43,Robbie Eagles,NJPW,2011,14,380,0,1,1,2,0,0.62,3.7,0.3,8,34,Junior Heavyweight,Midcard
+44,Hiromu Takahashi,NJPW,2008,17,480,4,2,2,8,1,0.69,4.4,0.8,25,36,Junior Heavyweight,Main Eventer
+45,Master Wato,NJPW,2016,9,280,0,0,0,0,0,0.56,3.3,0.2,3,29,Junior Heavyweight,Enhancement
+46,Titan,NJPW,2007,18,420,0,1,1,2,0,0.61,3.6,0.3,7,37,Junior Heavyweight,Midcard
+47,Bushi,NJPW,2007,18,380,0,0,1,1,0,0.54,3.1,0.2,5,38,Junior Heavyweight,Enhancement
+48,Zack Sabre Jr,NJPW,2004,21,580,2,3,2,7,1,0.68,4.3,0.9,28,37,Heavyweight,Main Eventer
+49,Shane Haste,NJPW,2005,20,420,0,0,1,1,0,0.59,3.4,0.3,6,39,Heavyweight,Midcard
+50,Mikey Nicholls,NJPW,2005,20,400,0,0,1,1,0,0.58,3.3,0.3,5,39,Heavyweight,Midcard
+51,Lance Archer,NJPW,1998,27,680,1,2,2,5,0,0.66,4,0.6,32,47,Heavyweight,Midcard
+52,Bad Luck Fale,NJPW,2009,16,520,0,1,2,3,0,0.62,3.7,0.4,18,42,Heavyweight,Midcard
+53,Chase Owens,NJPW,2011,14,380,0,0,0,0,0,0.53,3,0.2,4,34,Heavyweight,Enhancement
+54,Alex Coughlin,NJPW,2017,8,220,0,0,0,0,0,0.57,3.2,0.1,2,29,Heavyweight,Enhancement
+55,Gabe Kidd,NJPW,2016,9,240,0,0,0,0,0,0.56,3.1,0.1,3,28,Heavyweight,Enhancement
+56,Alex Shelley,Impact,2002,23,780,3,4,5,12,1,0.67,4.2,0.8,38,42,Heavyweight,Main Eventer
+57,Chris Sabin,Impact,2000,25,820,4,3,6,13,0,0.66,4.1,0.7,42,43,Heavyweight,Main Eventer
+58,Josh Alexander,Impact,2005,20,580,2,2,2,6,0,0.68,4,0.6,25,38,Heavyweight,Main Eventer
+59,Steve Maclin,Impact,2011,14,420,1,1,1,3,0,0.65,3.8,0.4,12,36,Heavyweight,Midcard
+60,PCO,Impact,1987,38,980,3,3,4,10,0,0.63,4.1,0.9,65,57,Heavyweight,Legend
+61,Eddie Edwards,Impact,2005,20,680,2,3,3,8,0,0.64,3.9,0.5,28,40,Heavyweight,Midcard
+62,Brian Myers,Impact,2002,23,720,1,2,2,5,0,0.61,3.6,0.4,22,43,Heavyweight,Midcard
+63,Moose,Impact,2006,19,580,2,2,2,6,1,0.67,4,0.6,24,41,Heavyweight,Main Eventer
+64,Eric Young,Impact,1998,27,780,3,3,4,10,0,0.62,3.8,0.7,45,48,Heavyweight,Main Eventer
+65,Frankie Kazarian,Impact,1998,27,820,2,3,4,9,0,0.61,3.7,0.6,48,47,Heavyweight,Midcard
+66,Jake Something,Impact,2012,13,320,0,0,0,0,0,0.58,3.3,0.2,5,35,Heavyweight,Enhancement
+67,Joe Doering,Impact,2003,22,520,0,1,1,2,0,0.62,3.6,0.3,18,42,Heavyweight,Midcard
+68,Deaner,Impact,2005,20,420,0,0,1,1,0,0.55,3.1,0.2,8,41,Heavyweight,Enhancement
+69,Black Taurus,Impact,2008,17,380,0,0,1,1,0,0.57,3.4,0.2,6,38,Heavyweight,Enhancement
+70,Mike Bailey,Impact,2011,14,420,1,1,1,3,0,0.66,3.9,0.4,14,34,Heavyweight,Midcard
+71,Jonathan Gresham,ROH,2005,20,580,2,2,2,6,0,0.65,3.8,0.5,22,37,Heavyweight,Main Eventer
+72,Mark Briscoe,ROH,2000,25,780,1,3,4,8,0,0.63,3.9,0.6,45,44,Heavyweight,Main Eventer
+73,Jay Lethal,ROH,2001,24,820,4,4,3,11,0,0.64,4,0.8,48,45,Heavyweight,Main Eventer
+74,Rhett Titus,ROH,2007,18,520,0,1,2,3,0,0.58,3.4,0.3,15,38,Heavyweight,Midcard
+75,Tracy Williams,ROH,2008,17,480,0,1,1,2,0,0.59,3.5,0.3,12,37,Heavyweight,Midcard
+76,Claudio Castagnoli,ROH,2000,25,780,3,3,4,10,0,0.67,4.2,0.9,42,44,Heavyweight,Main Eventer
+77,Matt Taven,ROH,2007,18,580,1,2,2,5,0,0.61,3.7,0.4,22,40,Heavyweight,Midcard
+78,Mike Bennett,ROH,2005,20,520,0,1,2,3,0,0.58,3.4,0.3,18,39,Heavyweight,Midcard
+79,Vincent,ROH,2010,15,380,0,0,1,1,0,0.55,3.1,0.2,8,37,Heavyweight,Enhancement
+80,Bateman,ROH,2012,13,320,0,0,0,0,0,0.53,3,0.2,4,35,Heavyweight,Enhancement
+81,PCO,ROH,1987,38,920,2,2,3,7,0,0.62,4,0.8,62,57,Heavyweight,Legend
+82,Brody King,ROH,2010,15,420,0,1,1,2,0,0.64,3.8,0.4,12,36,Heavyweight,Midcard
+83,Flip Gordon,ROH,2014,11,320,0,0,0,0,0,0.56,3.2,0.3,6,32,Heavyweight,Enhancement
+84,Dalton Castle,ROH,2006,19,580,1,1,1,3,0,0.61,3.7,0.5,25,41,Heavyweight,Midcard
+85,Silas Young,ROH,2000,25,680,0,1,1,2,0,0.58,3.4,0.3,22,45,Heavyweight,Midcard
+86,Kenny King,ROH,2003,22,620,0,1,2,3,0,0.59,3.5,0.4,20,44,Heavyweight,Midcard
+87,Shane Taylor,ROH,2010,15,420,0,1,1,2,0,0.62,3.6,0.3,10,38,Heavyweight,Midcard
+88,Eli Isom,ROH,2016,9,240,0,0,0,0,0,0.52,2.9,0.1,2,30,Heavyweight,Enhancement
+89,LSG,ROH,2012,13,320,0,0,0,0,0,0.53,3,0.2,3,35,Heavyweight,Enhancement
+90,Trevor Murdoch,NWA,2003,22,680,2,1,2,5,1,0.63,3.7,0.4,28,45,Heavyweight,Main Eventer
+91,Tyrus,NWA,1999,26,580,1,1,1,3,0,0.61,3.5,0.5,32,50,Heavyweight,Main Eventer
+92,Matt Cardona,NWA,2006,19,520,1,1,1,3,0,0.62,3.8,0.8,25,39,Heavyweight,Main Eventer
+93,Colby Corino,NWA,2016,9,240,0,0,0,0,0,0.55,3.1,0.2,3,27,Heavyweight,Enhancement
+94,Thom Latimer,NWA,2007,18,420,0,1,1,2,0,0.58,3.3,0.3,12,40,Heavyweight,Midcard
+95,Chris Adonis,NWA,2003,22,580,0,1,1,2,0,0.59,3.4,0.3,18,44,Heavyweight,Midcard
+96,Anthony Mayweather,NWA,2010,15,380,0,0,0,0,0,0.53,3,0.2,5,37,Heavyweight,Enhancement
+97,JR Kratos,NWA,2012,13,320,0,0,0,0,0,0.56,3.2,0.2,4,36,Heavyweight,Enhancement
+98,Blake Troop,NWA,2015,10,280,0,0,0,0,0,0.52,2.9,0.1,2,32,Heavyweight,Enhancement
+99,Judais,NWA,2014,11,300,0,0,0,0,0,0.54,3,0.1,3,33,Heavyweight,Enhancement
+100,Kamille,NWA,2015,10,320,1,0,0,1,0,0.67,3.8,0.4,8,32,Women's,Main Eventer
+101,Kenzie Paige,NWA,2018,7,180,0,0,0,0,0,0.58,3.2,0.2,2,25,Women's,Midcard
+102,Natalia Markova,NWA,2014,11,240,0,0,0,0,0,0.55,3.1,0.2,3,33,Women's,Enhancement
+103,Taya Valkyrie,NWA,2007,18,480,1,1,1,3,0,0.61,3.6,0.6,20,42,Women's,Main Eventer
+104,Melina,NWA,2001,24,520,2,2,1,5,0,0.59,3.5,0.7,35,46,Women's,Main Eventer
+105,Blue Demon Jr,AAA,1989,36,980,8,4,6,18,1,0.7,4.5,2.1,85,57,Heavyweight,Legend
+106,Psycho Clown,AAA,1996,29,780,5,3,4,12,0,0.68,4.3,1.8,55,47,Heavyweight,Main Eventer
+107,Pagano,AAA,2003,22,580,2,2,3,7,0,0.64,3.9,0.7,32,44,Heavyweight,Midcard
+108,Laredo Kid,AAA,2002,23,620,3,3,3,9,0,0.66,4.1,0.8,35,41,Heavyweight,Main Eventer
+109,Villano IV,AAA,1983,42,1100,4,3,5,12,0,0.65,4,1.2,78,62,Heavyweight,Legend
+110,Aero Star,AAA,1998,27,680,3,2,3,8,0,0.63,3.8,0.9,45,45,Heavyweight,Midcard
+111,Drago,AAA,2005,20,520,1,1,2,4,0,0.61,3.6,0.5,28,42,Heavyweight,Midcard
+112,El Hijo del Vikingo,AAA,2016,9,280,2,1,1,4,1,0.67,4,0.6,15,27,Heavyweight,Main Eventer
+113,Lady Shani,AAA,2012,13,380,1,2,1,4,0,0.62,3.5,0.4,12,31,Women's,Midcard
+114,Flamita,AAA,2008,17,420,1,1,1,3,0,0.63,3.7,0.4,16,35,Heavyweight,Midcard
+115,Arez,AAA,2015,10,240,0,0,1,1,0,0.57,3.2,0.2,5,28,Heavyweight,Enhancement
+116,Latigo,AAA,2016,9,220,0,0,0,0,0,0.55,3,0.1,3,27,Heavyweight,Enhancement
+117,Abismo Negro Jr,AAA,2014,11,280,0,0,0,0,0,0.56,3.1,0.2,4,33,Heavyweight,Enhancement
+118,Mamba,AAA,2017,8,200,0,0,0,0,0,0.53,2.9,0.1,2,26,Heavyweight,Enhancement
+119,Davey Boy Smith Jr,MLW,2007,18,520,2,2,2,6,0,0.64,3.8,0.5,25,39,Heavyweight,Main Eventer
+120,Alexander Hammerstone,MLW,2012,13,420,2,1,1,4,1,0.66,3.9,0.4,18,35,Heavyweight,Main Eventer
+121,Richard Holliday,MLW,2016,9,280,0,1,1,2,0,0.61,3.5,0.3,10,30,Heavyweight,Midcard
+122,Jacob Fatu,MLW,2014,11,380,1,1,1,3,0,0.67,4,0.5,15,32,Heavyweight,Main Eventer
+123,Tom Lawlor,MLW,2006,19,480,1,2,1,4,0,0.65,3.7,0.4,22,42,Heavyweight,Main Eventer
+124,Calvin Tankman,MLW,2015,10,320,0,0,0,0,0,0.62,3.4,0.2,6,33,Heavyweight,Midcard
+125,Austin Aries,MLW,2000,25,680,3,3,2,8,0,0.64,3.9,0.8,42,47,Heavyweight,Main Eventer
+126,Myron Reed,MLW,2016,9,240,0,0,0,0,0,0.58,3.2,0.2,4,27,Heavyweight,Enhancement
+127,Jordan Oliver,MLW,2017,8,200,0,0,0,0,0,0.55,3,0.1,2,26,Heavyweight,Enhancement
+128,Arez,MLW,2015,10,220,0,0,0,0,0,0.54,2.9,0.1,3,28,Heavyweight,Enhancement
+129,Gino Medina,MLW,2016,9,240,0,0,0,0,0,0.56,3.1,0.2,4,27,Heavyweight,Enhancement
+130,Kento Miyahara,AJPW,2009,16,580,4,3,2,9,1,0.71,4.4,0.9,38,35,Heavyweight,Main Eventer
+131,Jake Lee,AJPW,2011,14,480,2,2,1,5,0,0.68,4.1,0.6,28,36,Heavyweight,Main Eventer
+132,Suwama,AJPW,2004,21,780,5,4,3,12,0,0.69,4.3,0.8,52,47,Heavyweight,Main Eventer
+133,Shuji Ishikawa,AJPW,2005,20,620,2,2,2,6,0,0.66,3.9,0.5,38,44,Heavyweight,Main Eventer
+134,Zeus,AJPW,2008,17,520,1,2,2,5,0,0.65,3.8,0.4,25,41,Heavyweight,Midcard
+135,Yoshitatsu,AJPW,2002,23,680,1,2,2,5,0,0.61,3.6,0.5,42,45,Heavyweight,Midcard
+136,Koji Doi,AJPW,2010,15,380,0,0,1,1,0,0.58,3.3,0.2,8,37,Heavyweight,Enhancement
+137,Kuma Arashi,AJPW,2012,13,320,0,0,0,0,0,0.56,3.1,0.2,5,35,Heavyweight,Enhancement
+138,Kaito Kiyomiya,NOAH,2015,10,380,2,1,1,4,1,0.67,3.9,0.6,20,27,Heavyweight,Main Eventer
+139,Kenoh,NOAH,2006,19,580,3,2,2,7,0,0.66,3.8,0.5,32,41,Heavyweight,Main Eventer
+140,Katsuhiko Nakajima,NOAH,2004,21,680,2,3,2,7,0,0.65,3.7,0.5,38,42,Heavyweight,Main Eventer
+141,Go Shiozaki,NOAH,2005,20,620,3,2,2,7,0,0.64,3.8,0.5,35,42,Heavyweight,Main Eventer
+142,Naomichi Marufuji,NOAH,1998,27,780,4,4,3,11,0,0.67,4.1,0.8,55,45,Heavyweight,Main Eventer
+143,Takashi Sugiura,NOAH,1995,30,820,3,3,3,9,0,0.66,4,0.7,58,54,Heavyweight,Main Eventer
+144,Masa Kitamiya,NOAH,2010,15,420,0,1,1,2,0,0.61,3.5,0.3,15,37,Heavyweight,Midcard
+145,Yoshiki Inamura,NOAH,2016,9,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Heavyweight,Enhancement
+146,Haoh,NOAH,2018,7,220,0,0,0,0,0,0.56,3.1,0.2,4,25,Heavyweight,Enhancement
+147,Nio,NOAH,2019,6,200,0,0,0,0,0,0.55,3,0.1,3,24,Heavyweight,Enhancement
+148,Mayu Iwatani,Stardom,2011,14,480,3,2,2,7,0,0.66,3.9,0.7,25,32,Women's,Main Eventer
+149,Giulia,Stardom,2019,6,220,2,1,1,4,1,0.68,3.8,0.5,12,28,Women's,Main Eventer
+150,Syuri,Stardom,2019,6,240,1,1,1,3,0,0.67,3.7,0.4,10,35,Women's,Main Eventer
+151,Tam Nakano,Stardom,2017,8,280,1,1,1,3,0,0.65,3.6,0.5,14,33,Women's,Main Eventer
+152,Utami Hayashishita,Stardom,2018,7,260,2,1,1,4,0,0.69,3.9,0.6,15,26,Women's,Main Eventer
+153,Saya Kamitani,Stardom,2019,6,220,1,1,1,3,0,0.66,3.7,0.4,11,26,Women's,Main Eventer
+154,Momo Watanabe,Stardom,2016,9,300,1,1,1,3,0,0.64,3.5,0.4,13,25,Women's,Midcard
+155,Starlight Kid,Stardom,2017,8,240,0,1,1,2,0,0.63,3.4,0.3,9,24,Women's,Midcard
+156,Natsupoi,Stardom,2018,7,200,0,0,1,1,0,0.61,3.3,0.3,7,26,Women's,Midcard
+157,Saki Kashima,Stardom,2013,12,320,0,0,0,0,0,0.58,3.1,0.2,5,31,Women's,Enhancement
+158,Fukigen Death,Stardom,2014,11,280,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+159,Ruaka,Stardom,2017,8,220,0,0,0,0,0,0.56,2.9,0.1,3,25,Women's,Enhancement
+160,Hanan,Stardom,2018,7,200,0,0,0,0,0,0.55,2.8,0.1,2,24,Women's,Enhancement
+161,Hina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+162,Rina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+163,Koguma,Stardom,2014,11,260,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+164,Miyu Amasaki,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,21,Women's,Enhancement
+165,Tomoka Inaba,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+166,Waka Tsukiyama,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+167,Mai Sakurai,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,22,Women's,Enhancement
+168,Lucas Steel,FPW,2018,7,180,0,0,0,0,0,0.55,3,0.1,2,29,Heavyweight,Enhancement
+169,Kenny Cage,FPW,2019,6,160,0,0,0,0,0,0.53,2.9,0.1,1,28,Heavyweight,Enhancement
+170,Raven,FPW,2020,5,140,0,0,0,0,0,0.52,2.8,0.1,1,27,Heavyweight,Enhancement
+171,Sandman,FPW,2021,4,120,0,0,0,0,0,0.51,2.7,0.1,0,26,Heavyweight,Enhancement
+172,Thunder,FPW,2017,8,200,0,0,0,0,0,0.54,2.9,0.1,2,30,Heavyweight,Enhancement
+173,Quicksilver,OVW,2015,10,280,0,0,0,0,0,0.56,3.1,0.2,3,32,Heavyweight,Enhancement
+174,Titan,OVW,2016,9,240,0,0,0,0,0,0.55,3,0.1,2,31,Heavyweight,Enhancement
+175,Apex,OVW,2017,8,220,0,0,0,0,0,0.53,2.9,0.1,1,30,Heavyweight,Enhancement
+176,Vortex,OVW,2018,7,200,0,0,0,0,0,0.52,2.8,0.1,1,29,Heavyweight,Enhancement
+177,Crimson,OVW,2014,11,300,0,0,0,0,0,0.54,3,0.1,3,33,Heavyweight,Enhancement
+178,Jessicka Havok,Impact,2009,16,420,1,1,1,3,0,0.63,3.7,0.4,18,38,Women's,Main Eventer
+179,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.65,3.8,0.5,15,31,Women's,Main Eventer
+180,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.64,3.6,0.4,12,30,Women's,Main Eventer
+181,Tasha Steelz,Impact,2015,10,280,0,1,1,2,0,0.61,3.5,0.3,8,32,Women's,Midcard
+182,Rosemary,Impact,2005,20,520,1,2,1,4,0,0.62,3.7,0.5,25,41,Women's,Main Eventer
+183,Taya Valkyrie,Impact,2007,18,480,1,1,1,3,0,0.63,3.6,0.6,20,42,Women's,Main Eventer
+184,Gisele Shaw,Impact,2016,9,240,0,0,0,0,0,0.58,3.2,0.2,4,31,Women's,Enhancement
+185,Savannah Evans,Impact,2017,8,200,0,0,0,0,0,0.56,3.1,0.2,3,30,Women's,Enhancement
+186,Chelsea Green,Impact,2014,11,280,0,0,0,0,0,0.57,3.2,0.3,5,34,Women's,Enhancement
+187,Mickie James,Impact,1999,26,680,3,3,2,8,0,0.64,3.9,1.2,45,45,Women's,Legend
+188,Gail Kim,Impact,2000,25,620,4,3,1,8,0,0.65,4,1,48,48,Women's,Legend
+189,Skye Blue,AEW,2019,6,160,0,0,0,0,0,0.56,3.2,0.3,2,24,Women's,Enhancement
+190,Anna Jay,AEW,2019,6,140,0,0,0,0,0,0.55,3.1,0.4,1,25,Women's,Enhancement
+191,Tay Melo,AEW,2018,7,150,0,0,0,0,0,0.54,3,0.3,1,28,Women's,Enhancement
+192,Penelope Ford,AEW,2016,9,180,0,0,0,0,0,0.57,3.2,0.4,3,30,Women's,Enhancement
+193,Bunny,AEW,2015,10,200,0,0,0,0,0,0.56,3.1,0.3,4,35,Women's,Enhancement
+194,Leva Bates,AEW,2010,15,240,0,0,0,0,0,0.53,2.9,0.2,2,38,Women's,Enhancement
+195,Red Velvet,AEW,2019,6,120,0,0,0,0,0,0.52,2.8,0.2,1,27,Women's,Enhancement
+196,Kiera Hogan,AEW,2015,10,160,0,0,0,0,0,0.54,3,0.2,2,30,Women's,Enhancement
+197,Diamante,AEW,2014,11,180,0,0,0,0,0,0.55,3.1,0.2,3,32,Women's,Enhancement
+198,Nyla Rose,AEW,2017,8,220,1,0,0,1,0,0.62,3.6,0.5,8,40,Women's,Midcard
+199,Emi Sakura,AEW,1995,30,580,0,1,0,1,0,0.59,3.5,0.4,25,48,Women's,Midcard
+200,Riho,AEW,2016,9,200,0,1,0,1,0,0.61,3.4,0.3,6,26,Women's,Midcard
+201,Yuka Sakazaki,AEW,2014,11,180,0,0,0,0,0,0.58,3.3,0.2,4,30,Women's,Enhancement
+202,Mizuki,AEW,2015,10,160,0,0,0,0,0,0.57,3.2,0.2,3,29,Women's,Enhancement
+203,Miyu Yamashita,AEW,2017,8,140,0,0,0,0,0,0.56,3.1,0.2,2,28,Women's,Enhancement
+204,Masha Slamovich,Impact,2018,7,180,0,0,0,0,0,0.63,3.5,0.3,4,26,Women's,Enhancement
+205,Courtney Rush,Impact,2009,16,320,0,0,0,0,0,0.58,3.3,0.2,6,38,Women's,Enhancement
+206,Gisele Shaw,Impact,2016,9,240,0,0,0,0,0,0.59,3.4,0.2,5,31,Women's,Enhancement
+207,Savannah Evans,Impact,2017,8,200,0,0,0,0,0,0.57,3.2,0.2,3,30,Women's,Enhancement
+208,Tasha Steelz,Impact,2015,10,280,0,1,1,2,0,0.61,3.5,0.3,8,32,Women's,Midcard
+209,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.64,3.6,0.4,12,30,Women's,Main Eventer
+210,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.65,3.7,0.5,15,31,Women's,Main Eventer
+211,Mickie James,Impact,1999,26,680,3,3,2,8,0,0.64,3.9,1.2,45,45,Women's,Legend
+212,Gail Kim,Impact,2000,25,620,4,3,1,8,0,0.65,4,1,48,48,Women's,Legend
+213,Mayu Iwatani,Stardom,2011,14,480,3,2,2,7,0,0.66,3.9,0.7,25,32,Women's,Main Eventer
+214,Giulia,Stardom,2019,6,220,2,1,1,4,1,0.68,3.8,0.5,12,28,Women's,Main Eventer
+215,Syuri,Stardom,2019,6,240,1,1,1,3,0,0.67,3.7,0.4,10,35,Women's,Main Eventer
+216,Tam Nakano,Stardom,2017,8,280,1,1,1,3,0,0.65,3.6,0.5,14,33,Women's,Main Eventer
+217,Utami Hayashishita,Stardom,2018,7,260,2,1,1,4,0,0.69,3.9,0.6,15,26,Women's,Main Eventer
+218,Saya Kamitani,Stardom,2019,6,220,1,1,1,3,0,0.66,3.7,0.4,11,26,Women's,Main Eventer
+219,Momo Watanabe,Stardom,2016,9,300,1,1,1,3,0,0.64,3.5,0.4,13,25,Women's,Midcard
+220,Starlight Kid,Stardom,2017,8,240,0,1,1,2,0,0.63,3.4,0.3,9,24,Women's,Midcard
+221,Natsupoi,Stardom,2018,7,200,0,0,1,1,0,0.61,3.3,0.3,7,26,Women's,Midcard
+222,Saki Kashima,Stardom,2013,12,320,0,0,0,0,0,0.58,3.1,0.2,5,31,Women's,Enhancement
+223,Fukigen Death,Stardom,2014,11,280,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+224,Ruaka,Stardom,2017,8,220,0,0,0,0,0,0.56,2.9,0.1,3,25,Women's,Enhancement
+225,Hanan,Stardom,2018,7,200,0,0,0,0,0,0.55,2.8,0.1,2,24,Women's,Enhancement
+226,Hina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+227,Rina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+228,Koguma,Stardom,2014,11,260,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+229,Miyu Amasaki,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,21,Women's,Enhancement
+230,Tomoka Inaba,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+231,Waka Tsukiyama,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+232,Mai Sakurai,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,22,Women's,Enhancement
+233,Kaito Kiyomiya,NOAH,2015,10,380,2,1,1,4,1,0.67,3.9,0.6,20,27,Heavyweight,Main Eventer
+234,Kenoh,NOAH,2006,19,580,3,2,2,7,0,0.66,3.8,0.5,32,41,Heavyweight,Main Eventer
+235,Katsuhiko Nakajima,NOAH,2004,21,680,2,3,2,7,0,0.65,3.7,0.5,38,42,Heavyweight,Main Eventer
+236,Go Shiozaki,NOAH,2005,20,620,3,2,2,7,0,0.64,3.8,0.5,35,42,Heavyweight,Main Eventer
+237,Naomichi Marufuji,NOAH,1998,27,780,4,4,3,11,0,0.67,4.1,0.8,55,45,Heavyweight,Main Eventer
+238,Takashi Sugiura,NOAH,1995,30,820,3,3,3,9,0,0.66,4,0.7,58,54,Heavyweight,Main Eventer
+239,Masa Kitamiya,NOAH,2010,15,420,0,1,1,2,0,0.61,3.5,0.3,15,37,Heavyweight,Midcard
+240,Yoshiki Inamura,NOAH,2016,9,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Heavyweight,Enhancement
+241,Haoh,NOAH,2018,7,220,0,0,0,0,0,0.56,3.1,0.2,4,25,Heavyweight,Enhancement
+242,Nio,NOAH,2019,6,200,0,0,0,0,0,0.55,3,0.1,3,24,Heavyweight,Enhancement
+243,AJ Gray,MLW,2016,9,240,0,0,0,0,0,0.57,3.2,0.2,4,30,Heavyweight,Enhancement
+244,Myron Reed,MLW,2016,9,220,0,0,0,0,0,0.56,3.1,0.2,3,27,Heavyweight,Enhancement
+245,Rich Swann,Impact,2011,14,420,1,1,1,3,0,0.63,3.6,0.4,16,37,Heavyweight,Midcard
+246,Willie Mack,Impact,2008,17,380,0,1,1,2,0,0.61,3.5,0.3,12,38,Heavyweight,Midcard
+247,Trey Miguel,Impact,2016,9,280,0,0,0,0,0,0.59,3.4,0.2,6,29,Heavyweight,Enhancement
+248,Laredo Kid,Impact,2002,23,520,1,1,1,3,0,0.62,3.7,0.4,18,41,Heavyweight,Midcard
+249,Black Taurus,Impact,2008,17,340,0,0,1,1,0,0.58,3.3,0.2,8,38,Heavyweight,Enhancement
+250,Crazzy Steve,Impact,2003,22,480,0,0,1,1,0,0.57,3.2,0.2,10,43,Heavyweight,Enhancement
+251,Decay,Impact,2015,10,320,0,0,0,0,0,0.56,3.1,0.2,5,32,Heavyweight,Enhancement
+252,Havok,Impact,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,14,38,Women's,Midcard
+253,Rosemary,Impact,2005,20,520,1,2,1,4,0,0.63,3.7,0.5,25,41,Women's,Main Eventer
+254,Taya Valkyrie,Impact,2007,18,480,1,1,1,3,0,0.64,3.6,0.6,20,42,Women's,Main Eventer
+255,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.65,3.7,0.4,12,30,Women's,Main Eventer
+256,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.66,3.8,0.5,15,31,Women's,Main Eventer
+257,Tenille Dashwood,Impact,2008,17,420,0,1,1,2,0,0.61,3.5,0.4,16,38,Women's,Midcard
+258,Kiera Hogan,Impact,2015,10,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Women's,Enhancement
+259,Allysin Kay,NWA,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,12,37,Women's,Midcard
+260,Marti Belle,NWA,2011,14,320,0,0,0,0,0,0.57,3.2,0.2,5,36,Women's,Enhancement
+261,Taryn Terrell,NWA,2007,18,340,0,1,0,1,0,0.59,3.4,0.3,8,40,Women's,Midcard
+262,Melina,NWA,2001,24,520,2,2,1,5,0,0.61,3.7,0.7,35,46,Women's,Main Eventer
+263,Kamille,NWA,2015,10,320,1,0,0,1,0,0.67,3.8,0.4,8,32,Women's,Main Eventer
+264,Kenzie Paige,NWA,2018,7,180,0,0,0,0,0,0.58,3.2,0.2,2,25,Women's,Midcard
+265,Natalia Markova,NWA,2014,11,240,0,0,0,0,0,0.55,3.1,0.2,3,33,Women's,Enhancement
+266,Skye Blue,AEW,2019,6,160,0,0,0,0,0,0.56,3.2,0.3,2,24,Women's,Enhancement
+267,Anna Jay,AEW,2019,6,140,0,0,0,0,0,0.55,3.1,0.4,1,25,Women's,Enhancement
+268,Tay Melo,AEW,2018,7,150,0,0,0,0,0,0.54,3,0.3,1,28,Women's,Enhancement
+269,Penelope Ford,AEW,2016,9,180,0,0,0,0,0,0.57,3.2,0.4,3,30,Women's,Enhancement
+270,Bunny,AEW,2015,10,200,0,0,0,0,0,0.56,3.1,0.3,4,35,Women's,Enhancement
+271,Leva Bates,AEW,2010,15,240,0,0,0,0,0,0.53,2.9,0.2,2,38,Women's,Enhancement
+272,Red Velvet,AEW,2019,6,120,0,0,0,0,0,0.52,2.8,0.2,1,27,Women's,Enhancement
+273,Kiera Hogan,AEW,2015,10,160,0,0,0,0,0,0.54,3,0.2,2,30,Women's,Enhancement
+274,Diamante,AEW,2014,11,180,0,0,0,0,0,0.55,3.1,0.2,3,32,Women's,Enhancement
+275,Nyla Rose,AEW,2017,8,220,1,0,0,1,0,0.62,3.6,0.5,8,40,Women's,Midcard
+276,Emi Sakura,AEW,1995,30,580,0,1,0,1,0,0.59,3.5,0.4,25,48,Women's,Midcard
+277,Riho,AEW,2016,9,200,0,1,0,1,0,0.61,3.4,0.3,6,26,Women's,Midcard
+278,Yuka Sakazaki,AEW,2014,11,180,0,0,0,0,0,0.58,3.3,0.2,4,30,Women's,Enhancement
+279,Mizuki,AEW,2015,10,160,0,0,0,0,0,0.57,3.2,0.2,3,29,Women's,Enhancement
+280,Miyu Yamashita,AEW,2017,8,140,0,0,0,0,0,0.56,3.1,0.2,2,28,Women's,Enhancement
+281,Masha Slamovich,Impact,2018,7,180,0,0,0,0,0,0.63,3.5,0.3,4,26,Women's,Enhancement
+282,Courtney Rush,Impact,2009,16,320,0,0,0,0,0,0.58,3.3,0.2,6,38,Women's,Enhancement
+283,Gisele Shaw,Impact,2016,9,240,0,0,0,0,0,0.59,3.4,0.2,5,31,Women's,Enhancement
+284,Savannah Evans,Impact,2017,8,200,0,0,0,0,0,0.57,3.2,0.2,3,30,Women's,Enhancement
+285,Tasha Steelz,Impact,2015,10,280,0,1,1,2,0,0.61,3.5,0.3,8,32,Women's,Midcard
+286,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.64,3.6,0.4,12,30,Women's,Main Eventer
+287,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.65,3.7,0.5,15,31,Women's,Main Eventer
+288,Mickie James,Impact,1999,26,680,3,3,2,8,0,0.64,3.9,1.2,45,45,Women's,Legend
+289,Gail Kim,Impact,2000,25,620,4,3,1,8,0,0.65,4,1,48,48,Women's,Legend
+290,Mayu Iwatani,Stardom,2011,14,480,3,2,2,7,0,0.66,3.9,0.7,25,32,Women's,Main Eventer
+291,Giulia,Stardom,2019,6,220,2,1,1,4,1,0.68,3.8,0.5,12,28,Women's,Main Eventer
+292,Syuri,Stardom,2019,6,240,1,1,1,3,0,0.67,3.7,0.4,10,35,Women's,Main Eventer
+293,Tam Nakano,Stardom,2017,8,280,1,1,1,3,0,0.65,3.6,0.5,14,33,Women's,Main Eventer
+294,Utami Hayashishita,Stardom,2018,7,260,2,1,1,4,0,0.69,3.9,0.6,15,26,Women's,Main Eventer
+295,Saya Kamitani,Stardom,2019,6,220,1,1,1,3,0,0.66,3.7,0.4,11,26,Women's,Main Eventer
+296,Momo Watanabe,Stardom,2016,9,300,1,1,1,3,0,0.64,3.5,0.4,13,25,Women's,Midcard
+297,Starlight Kid,Stardom,2017,8,240,0,1,1,2,0,0.63,3.4,0.3,9,24,Women's,Midcard
+298,Natsupoi,Stardom,2018,7,200,0,0,1,1,0,0.61,3.3,0.3,7,26,Women's,Midcard
+299,Saki Kashima,Stardom,2013,12,320,0,0,0,0,0,0.58,3.1,0.2,5,31,Women's,Enhancement
+300,Fukigen Death,Stardom,2014,11,280,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+301,Ruaka,Stardom,2017,8,220,0,0,0,0,0,0.56,2.9,0.1,3,25,Women's,Enhancement
+302,Hanan,Stardom,2018,7,200,0,0,0,0,0,0.55,2.8,0.1,2,24,Women's,Enhancement
+303,Hina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+304,Rina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+305,Koguma,Stardom,2014,11,260,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+306,Miyu Amasaki,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,21,Women's,Enhancement
+307,Tomoka Inaba,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+308,Waka Tsukiyama,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+309,Mai Sakurai,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,22,Women's,Enhancement
+310,Kaito Kiyomiya,NOAH,2015,10,380,2,1,1,4,1,0.67,3.9,0.6,20,27,Heavyweight,Main Eventer
+311,Kenoh,NOAH,2006,19,580,3,2,2,7,0,0.66,3.8,0.5,32,41,Heavyweight,Main Eventer
+312,Katsuhiko Nakajima,NOAH,2004,21,680,2,3,2,7,0,0.65,3.7,0.5,38,42,Heavyweight,Main Eventer
+313,Go Shiozaki,NOAH,2005,20,620,3,2,2,7,0,0.64,3.8,0.5,35,42,Heavyweight,Main Eventer
+314,Naomichi Marufuji,NOAH,1998,27,780,4,4,3,11,0,0.67,4.1,0.8,55,45,Heavyweight,Main Eventer
+315,Takashi Sugiura,NOAH,1995,30,820,3,3,3,9,0,0.66,4,0.7,58,54,Heavyweight,Main Eventer
+316,Masa Kitamiya,NOAH,2010,15,420,0,1,1,2,0,0.61,3.5,0.3,15,37,Heavyweight,Midcard
+317,Yoshiki Inamura,NOAH,2016,9,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Heavyweight,Enhancement
+318,Haoh,NOAH,2018,7,220,0,0,0,0,0,0.56,3.1,0.2,4,25,Heavyweight,Enhancement
+319,Nio,NOAH,2019,6,200,0,0,0,0,0,0.55,3,0.1,3,24,Heavyweight,Enhancement
+320,AJ Gray,MLW,2016,9,240,0,0,0,0,0,0.57,3.2,0.2,4,30,Heavyweight,Enhancement
+321,Myron Reed,MLW,2016,9,220,0,0,0,0,0,0.56,3.1,0.2,3,27,Heavyweight,Enhancement
+322,Rich Swann,Impact,2011,14,420,1,1,1,3,0,0.63,3.6,0.4,16,37,Heavyweight,Midcard
+323,Willie Mack,Impact,2008,17,380,0,1,1,2,0,0.61,3.5,0.3,12,38,Heavyweight,Midcard
+324,Trey Miguel,Impact,2016,9,280,0,0,0,0,0,0.59,3.4,0.2,6,29,Heavyweight,Enhancement
+325,Laredo Kid,Impact,2002,23,520,1,1,1,3,0,0.62,3.7,0.4,18,41,Heavyweight,Midcard
+326,Black Taurus,Impact,2008,17,340,0,0,1,1,0,0.58,3.3,0.2,8,38,Heavyweight,Enhancement
+327,Crazzy Steve,Impact,2003,22,480,0,0,1,1,0,0.57,3.2,0.2,10,43,Heavyweight,Enhancement
+328,Decay,Impact,2015,10,320,0,0,0,0,0,0.56,3.1,0.2,5,32,Heavyweight,Enhancement
+329,Havok,Impact,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,14,38,Women's,Midcard
+330,Rosemary,Impact,2005,20,520,1,2,1,4,0,0.63,3.7,0.5,25,41,Women's,Main Eventer
+331,Taya Valkyrie,Impact,2007,18,480,1,1,1,3,0,0.64,3.6,0.6,20,42,Women's,Main Eventer
+332,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.65,3.7,0.4,12,30,Women's,Main Eventer
+333,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.66,3.8,0.5,15,31,Women's,Main Eventer
+334,Tenille Dashwood,Impact,2008,17,420,0,1,1,2,0,0.61,3.5,0.4,16,38,Women's,Midcard
+335,Kiera Hogan,Impact,2015,10,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Women's,Enhancement
+336,Allysin Kay,NWA,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,12,37,Women's,Midcard
+337,Marti Belle,NWA,2011,14,320,0,0,0,0,0,0.57,3.2,0.2,5,36,Women's,Enhancement
+338,Taryn Terrell,NWA,2007,18,340,0,1,0,1,0,0.59,3.4,0.3,8,40,Women's,Midcard
+339,Melina,NWA,2001,24,520,2,2,1,5,0,0.61,3.7,0.7,35,46,Women's,Main Eventer
+340,Kamille,NWA,2015,10,320,1,0,0,1,0,0.67,3.8,0.4,8,32,Women's,Main Eventer
+341,Kenzie Paige,NWA,2018,7,180,0,0,0,0,0,0.58,3.2,0.2,2,25,Women's,Midcard
+342,Natalia Markova,NWA,2014,11,240,0,0,0,0,0,0.55,3.1,0.2,3,33,Women's,Enhancement
+343,Skye Blue,AEW,2019,6,160,0,0,0,0,0,0.56,3.2,0.3,2,24,Women's,Enhancement
+344,Anna Jay,AEW,2019,6,140,0,0,0,0,0,0.55,3.1,0.4,1,25,Women's,Enhancement
+345,Tay Melo,AEW,2018,7,150,0,0,0,0,0,0.54,3,0.3,1,28,Women's,Enhancement
+346,Penelope Ford,AEW,2016,9,180,0,0,0,0,0,0.57,3.2,0.4,3,30,Women's,Enhancement
+347,Bunny,AEW,2015,10,200,0,0,0,0,0,0.56,3.1,0.3,4,35,Women's,Enhancement
+348,Leva Bates,AEW,2010,15,240,0,0,0,0,0,0.53,2.9,0.2,2,38,Women's,Enhancement
+349,Red Velvet,AEW,2019,6,120,0,0,0,0,0,0.52,2.8,0.2,1,27,Women's,Enhancement
+350,Kiera Hogan,AEW,2015,10,160,0,0,0,0,0,0.54,3,0.2,2,30,Women's,Enhancement
+351,Diamante,AEW,2014,11,180,0,0,0,0,0,0.55,3.1,0.2,3,32,Women's,Enhancement
+352,Nyla Rose,AEW,2017,8,220,1,0,0,1,0,0.62,3.6,0.5,8,40,Women's,Midcard
+353,Emi Sakura,AEW,1995,30,580,0,1,0,1,0,0.59,3.5,0.4,25,48,Women's,Midcard
+354,Riho,AEW,2016,9,200,0,1,0,1,0,0.61,3.4,0.3,6,26,Women's,Midcard
+355,Yuka Sakazaki,AEW,2014,11,180,0,0,0,0,0,0.58,3.3,0.2,4,30,Women's,Enhancement
+356,Mizuki,AEW,2015,10,160,0,0,0,0,0,0.57,3.2,0.2,3,29,Women's,Enhancement
+357,Miyu Yamashita,AEW,2017,8,140,0,0,0,0,0,0.56,3.1,0.2,2,28,Women's,Enhancement
+358,Masha Slamovich,Impact,2018,7,180,0,0,0,0,0,0.63,3.5,0.3,4,26,Women's,Enhancement
+359,Courtney Rush,Impact,2009,16,320,0,0,0,0,0,0.58,3.3,0.2,6,38,Women's,Enhancement
+360,Gisele Shaw,Impact,2016,9,240,0,0,0,0,0,0.59,3.4,0.2,5,31,Women's,Enhancement
+361,Savannah Evans,Impact,2017,8,200,0,0,0,0,0,0.57,3.2,0.2,3,30,Women's,Enhancement
+362,Tasha Steelz,Impact,2015,10,280,0,1,1,2,0,0.61,3.5,0.3,8,32,Women's,Midcard
+363,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.64,3.6,0.4,12,30,Women's,Main Eventer
+364,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.65,3.7,0.5,15,31,Women's,Main Eventer
+365,Mickie James,Impact,1999,26,680,3,3,2,8,0,0.64,3.9,1.2,45,45,Women's,Legend
+366,Gail Kim,Impact,2000,25,620,4,3,1,8,0,0.65,4,1,48,48,Women's,Legend
+367,Mayu Iwatani,Stardom,2011,14,480,3,2,2,7,0,0.66,3.9,0.7,25,32,Women's,Main Eventer
+368,Giulia,Stardom,2019,6,220,2,1,1,4,1,0.68,3.8,0.5,12,28,Women's,Main Eventer
+369,Syuri,Stardom,2019,6,240,1,1,1,3,0,0.67,3.7,0.4,10,35,Women's,Main Eventer
+370,Tam Nakano,Stardom,2017,8,280,1,1,1,3,0,0.65,3.6,0.5,14,33,Women's,Main Eventer
+371,Utami Hayashishita,Stardom,2018,7,260,2,1,1,4,0,0.69,3.9,0.6,15,26,Women's,Main Eventer
+372,Saya Kamitani,Stardom,2019,6,220,1,1,1,3,0,0.66,3.7,0.4,11,26,Women's,Main Eventer
+373,Momo Watanabe,Stardom,2016,9,300,1,1,1,3,0,0.64,3.5,0.4,13,25,Women's,Midcard
+374,Starlight Kid,Stardom,2017,8,240,0,1,1,2,0,0.63,3.4,0.3,9,24,Women's,Midcard
+375,Natsupoi,Stardom,2018,7,200,0,0,1,1,0,0.61,3.3,0.3,7,26,Women's,Midcard
+376,Saki Kashima,Stardom,2013,12,320,0,0,0,0,0,0.58,3.1,0.2,5,31,Women's,Enhancement
+377,Fukigen Death,Stardom,2014,11,280,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+378,Ruaka,Stardom,2017,8,220,0,0,0,0,0,0.56,2.9,0.1,3,25,Women's,Enhancement
+379,Hanan,Stardom,2018,7,200,0,0,0,0,0,0.55,2.8,0.1,2,24,Women's,Enhancement
+380,Hina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+381,Rina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+382,Koguma,Stardom,2014,11,260,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+383,Miyu Amasaki,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,21,Women's,Enhancement
+384,Tomoka Inaba,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+385,Waka Tsukiyama,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+386,Mai Sakurai,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,22,Women's,Enhancement
+387,Kaito Kiyomiya,NOAH,2015,10,380,2,1,1,4,1,0.67,3.9,0.6,20,27,Heavyweight,Main Eventer
+388,Kenoh,NOAH,2006,19,580,3,2,2,7,0,0.66,3.8,0.5,32,41,Heavyweight,Main Eventer
+389,Katsuhiko Nakajima,NOAH,2004,21,680,2,3,2,7,0,0.65,3.7,0.5,38,42,Heavyweight,Main Eventer
+390,Go Shiozaki,NOAH,2005,20,620,3,2,2,7,0,0.64,3.8,0.5,35,42,Heavyweight,Main Eventer
+391,Naomichi Marufuji,NOAH,1998,27,780,4,4,3,11,0,0.67,4.1,0.8,55,45,Heavyweight,Main Eventer
+392,Takashi Sugiura,NOAH,1995,30,820,3,3,3,9,0,0.66,4,0.7,58,54,Heavyweight,Main Eventer
+393,Masa Kitamiya,NOAH,2010,15,420,0,1,1,2,0,0.61,3.5,0.3,15,37,Heavyweight,Midcard
+394,Yoshiki Inamura,NOAH,2016,9,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Heavyweight,Enhancement
+395,Haoh,NOAH,2018,7,220,0,0,0,0,0,0.56,3.1,0.2,4,25,Heavyweight,Enhancement
+396,Nio,NOAH,2019,6,200,0,0,0,0,0,0.55,3,0.1,3,24,Heavyweight,Enhancement
+397,AJ Gray,MLW,2016,9,240,0,0,0,0,0,0.57,3.2,0.2,4,30,Heavyweight,Enhancement
+398,Myron Reed,MLW,2016,9,220,0,0,0,0,0,0.56,3.1,0.2,3,27,Heavyweight,Enhancement
+399,Rich Swann,Impact,2011,14,420,1,1,1,3,0,0.63,3.6,0.4,16,37,Heavyweight,Midcard
+400,Willie Mack,Impact,2008,17,380,0,1,1,2,0,0.61,3.5,0.3,12,38,Heavyweight,Midcard
+401,Trey Miguel,Impact,2016,9,280,0,0,0,0,0,0.59,3.4,0.2,6,29,Heavyweight,Enhancement
+402,Laredo Kid,Impact,2002,23,520,1,1,1,3,0,0.62,3.7,0.4,18,41,Heavyweight,Midcard
+403,Black Taurus,Impact,2008,17,340,0,0,1,1,0,0.58,3.3,0.2,8,38,Heavyweight,Enhancement
+404,Crazzy Steve,Impact,2003,22,480,0,0,1,1,0,0.57,3.2,0.2,10,43,Heavyweight,Enhancement
+405,Decay,Impact,2015,10,320,0,0,0,0,0,0.56,3.1,0.2,5,32,Heavyweight,Enhancement
+406,Havok,Impact,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,14,38,Women's,Midcard
+407,Rosemary,Impact,2005,20,520,1,2,1,4,0,0.63,3.7,0.5,25,41,Women's,Main Eventer
+408,Taya Valkyrie,Impact,2007,18,480,1,1,1,3,0,0.64,3.6,0.6,20,42,Women's,Main Eventer
+409,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.65,3.7,0.4,12,30,Women's,Main Eventer
+410,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.66,3.8,0.5,15,31,Women's,Main Eventer
+411,Tenille Dashwood,Impact,2008,17,420,0,1,1,2,0,0.61,3.5,0.4,16,38,Women's,Midcard
+412,Kiera Hogan,Impact,2015,10,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Women's,Enhancement
+413,Allysin Kay,NWA,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,12,37,Women's,Midcard
+414,Marti Belle,NWA,2011,14,320,0,0,0,0,0,0.57,3.2,0.2,5,36,Women's,Enhancement
+415,Taryn Terrell,NWA,2007,18,340,0,1,0,1,0,0.59,3.4,0.3,8,40,Women's,Midcard
+416,Melina,NWA,2001,24,520,2,2,1,5,0,0.61,3.7,0.7,35,46,Women's,Main Eventer
+417,Kamille,NWA,2015,10,320,1,0,0,1,0,0.67,3.8,0.4,8,32,Women's,Main Eventer
+418,Kenzie Paige,NWA,2018,7,180,0,0,0,0,0,0.58,3.2,0.2,2,25,Women's,Midcard
+419,Natalia Markova,NWA,2014,11,240,0,0,0,0,0,0.55,3.1,0.2,3,33,Women's,Enhancement
+420,Skye Blue,AEW,2019,6,160,0,0,0,0,0,0.56,3.2,0.3,2,24,Women's,Enhancement
+421,Anna Jay,AEW,2019,6,140,0,0,0,0,0,0.55,3.1,0.4,1,25,Women's,Enhancement
+422,Tay Melo,AEW,2018,7,150,0,0,0,0,0,0.54,3,0.3,1,28,Women's,Enhancement
+423,Penelope Ford,AEW,2016,9,180,0,0,0,0,0,0.57,3.2,0.4,3,30,Women's,Enhancement
+424,Bunny,AEW,2015,10,200,0,0,0,0,0,0.56,3.1,0.3,4,35,Women's,Enhancement
+425,Leva Bates,AEW,2010,15,240,0,0,0,0,0,0.53,2.9,0.2,2,38,Women's,Enhancement
+426,Red Velvet,AEW,2019,6,120,0,0,0,0,0,0.52,2.8,0.2,1,27,Women's,Enhancement
+427,Kiera Hogan,AEW,2015,10,160,0,0,0,0,0,0.54,3,0.2,2,30,Women's,Enhancement
+428,Diamante,AEW,2014,11,180,0,0,0,0,0,0.55,3.1,0.2,3,32,Women's,Enhancement
+429,Nyla Rose,AEW,2017,8,220,1,0,0,1,0,0.62,3.6,0.5,8,40,Women's,Midcard
+430,Emi Sakura,AEW,1995,30,580,0,1,0,1,0,0.59,3.5,0.4,25,48,Women's,Midcard
+431,Riho,AEW,2016,9,200,0,1,0,1,0,0.61,3.4,0.3,6,26,Women's,Midcard
+432,Yuka Sakazaki,AEW,2014,11,180,0,0,0,0,0,0.58,3.3,0.2,4,30,Women's,Enhancement
+433,Mizuki,AEW,2015,10,160,0,0,0,0,0,0.57,3.2,0.2,3,29,Women's,Enhancement
+434,Miyu Yamashita,AEW,2017,8,140,0,0,0,0,0,0.56,3.1,0.2,2,28,Women's,Enhancement
+435,Masha Slamovich,Impact,2018,7,180,0,0,0,0,0,0.63,3.5,0.3,4,26,Women's,Enhancement
+436,Courtney Rush,Impact,2009,16,320,0,0,0,0,0,0.58,3.3,0.2,6,38,Women's,Enhancement
+437,Gisele Shaw,Impact,2016,9,240,0,0,0,0,0,0.59,3.4,0.2,5,31,Women's,Enhancement
+438,Savannah Evans,Impact,2017,8,200,0,0,0,0,0,0.57,3.2,0.2,3,30,Women's,Enhancement
+439,Tasha Steelz,Impact,2015,10,280,0,1,1,2,0,0.61,3.5,0.3,8,32,Women's,Midcard
+440,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.64,3.6,0.4,12,30,Women's,Main Eventer
+441,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.65,3.7,0.5,15,31,Women's,Main Eventer
+442,Mickie James,Impact,1999,26,680,3,3,2,8,0,0.64,3.9,1.2,45,45,Women's,Legend
+443,Gail Kim,Impact,2000,25,620,4,3,1,8,0,0.65,4,1,48,48,Women's,Legend
+444,Mayu Iwatani,Stardom,2011,14,480,3,2,2,7,0,0.66,3.9,0.7,25,32,Women's,Main Eventer
+445,Giulia,Stardom,2019,6,220,2,1,1,4,1,0.68,3.8,0.5,12,28,Women's,Main Eventer
+446,Syuri,Stardom,2019,6,240,1,1,1,3,0,0.67,3.7,0.4,10,35,Women's,Main Eventer
+447,Tam Nakano,Stardom,2017,8,280,1,1,1,3,0,0.65,3.6,0.5,14,33,Women's,Main Eventer
+448,Utami Hayashishita,Stardom,2018,7,260,2,1,1,4,0,0.69,3.9,0.6,15,26,Women's,Main Eventer
+449,Saya Kamitani,Stardom,2019,6,220,1,1,1,3,0,0.66,3.7,0.4,11,26,Women's,Main Eventer
+450,Momo Watanabe,Stardom,2016,9,300,1,1,1,3,0,0.64,3.5,0.4,13,25,Women's,Midcard
+451,Starlight Kid,Stardom,2017,8,240,0,1,1,2,0,0.63,3.4,0.3,9,24,Women's,Midcard
+452,Natsupoi,Stardom,2018,7,200,0,0,1,1,0,0.61,3.3,0.3,7,26,Women's,Midcard
+453,Saki Kashima,Stardom,2013,12,320,0,0,0,0,0,0.58,3.1,0.2,5,31,Women's,Enhancement
+454,Fukigen Death,Stardom,2014,11,280,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+455,Ruaka,Stardom,2017,8,220,0,0,0,0,0,0.56,2.9,0.1,3,25,Women's,Enhancement
+456,Hanan,Stardom,2018,7,200,0,0,0,0,0,0.55,2.8,0.1,2,24,Women's,Enhancement
+457,Hina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+458,Rina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+459,Koguma,Stardom,2014,11,260,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+460,Miyu Amasaki,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,21,Women's,Enhancement
+461,Tomoka Inaba,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+462,Waka Tsukiyama,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+463,Mai Sakurai,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,22,Women's,Enhancement
+464,Kaito Kiyomiya,NOAH,2015,10,380,2,1,1,4,1,0.67,3.9,0.6,20,27,Heavyweight,Main Eventer
+465,Kenoh,NOAH,2006,19,580,3,2,2,7,0,0.66,3.8,0.5,32,41,Heavyweight,Main Eventer
+466,Katsuhiko Nakajima,NOAH,2004,21,680,2,3,2,7,0,0.65,3.7,0.5,38,42,Heavyweight,Main Eventer
+467,Go Shiozaki,NOAH,2005,20,620,3,2,2,7,0,0.64,3.8,0.5,35,42,Heavyweight,Main Eventer
+468,Naomichi Marufuji,NOAH,1998,27,780,4,4,3,11,0,0.67,4.1,0.8,55,45,Heavyweight,Main Eventer
+469,Takashi Sugiura,NOAH,1995,30,820,3,3,3,9,0,0.66,4,0.7,58,54,Heavyweight,Main Eventer
+470,Masa Kitamiya,NOAH,2010,15,420,0,1,1,2,0,0.61,3.5,0.3,15,37,Heavyweight,Midcard
+471,Yoshiki Inamura,NOAH,2016,9,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Heavyweight,Enhancement
+472,Haoh,NOAH,2018,7,220,0,0,0,0,0,0.56,3.1,0.2,4,25,Heavyweight,Enhancement
+473,Nio,NOAH,2019,6,200,0,0,0,0,0,0.55,3,0.1,3,24,Heavyweight,Enhancement
+474,AJ Gray,MLW,2016,9,240,0,0,0,0,0,0.57,3.2,0.2,4,30,Heavyweight,Enhancement
+475,Myron Reed,MLW,2016,9,220,0,0,0,0,0,0.56,3.1,0.2,3,27,Heavyweight,Enhancement
+476,Rich Swann,Impact,2011,14,420,1,1,1,3,0,0.63,3.6,0.4,16,37,Heavyweight,Midcard
+477,Willie Mack,Impact,2008,17,380,0,1,1,2,0,0.61,3.5,0.3,12,38,Heavyweight,Midcard
+478,Trey Miguel,Impact,2016,9,280,0,0,0,0,0,0.59,3.4,0.2,6,29,Heavyweight,Enhancement
+479,Laredo Kid,Impact,2002,23,520,1,1,1,3,0,0.62,3.7,0.4,18,41,Heavyweight,Midcard
+480,Black Taurus,Impact,2008,17,340,0,0,1,1,0,0.58,3.3,0.2,8,38,Heavyweight,Enhancement
+481,Crazzy Steve,Impact,2003,22,480,0,0,1,1,0,0.57,3.2,0.2,10,43,Heavyweight,Enhancement
+482,Decay,Impact,2015,10,320,0,0,0,0,0,0.56,3.1,0.2,5,32,Heavyweight,Enhancement
+483,Havok,Impact,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,14,38,Women's,Midcard
+484,Rosemary,Impact,2005,20,520,1,2,1,4,0,0.63,3.7,0.5,25,41,Women's,Main Eventer
+485,Taya Valkyrie,Impact,2007,18,480,1,1,1,3,0,0.64,3.6,0.6,20,42,Women's,Main Eventer
+486,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.65,3.7,0.4,12,30,Women's,Main Eventer
+487,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.66,3.8,0.5,15,31,Women's,Main Eventer
+488,Tenille Dashwood,Impact,2008,17,420,0,1,1,2,0,0.61,3.5,0.4,16,38,Women's,Midcard
+489,Kiera Hogan,Impact,2015,10,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Women's,Enhancement
+490,Allysin Kay,NWA,2009,16,380,1,1,1,3,0,0.62,3.6,0.3,12,37,Women's,Midcard
+491,Marti Belle,NWA,2011,14,320,0,0,0,0,0,0.57,3.2,0.2,5,36,Women's,Enhancement
+492,Taryn Terrell,NWA,2007,18,340,0,1,0,1,0,0.59,3.4,0.3,8,40,Women's,Midcard
+493,Melina,NWA,2001,24,520,2,2,1,5,0,0.61,3.7,0.7,35,46,Women's,Main Eventer
+494,Kamille,NWA,2015,10,320,1,0,0,1,0,0.67,3.8,0.4,8,32,Women's,Main Eventer
+495,Kenzie Paige,NWA,2018,7,180,0,0,0,0,0,0.58,3.2,0.2,2,25,Women's,Midcard
+496,Natalia Markova,NWA,2014,11,240,0,0,0,0,0,0.55,3.1,0.2,3,33,Women's,Enhancement
+497,Skye Blue,AEW,2019,6,160,0,0,0,0,0,0.56,3.2,0.3,2,24,Women's,Enhancement
+498,Anna Jay,AEW,2019,6,140,0,0,0,0,0,0.55,3.1,0.4,1,25,Women's,Enhancement
+499,Tay Melo,AEW,2018,7,150,0,0,0,0,0,0.54,3,0.3,1,28,Women's,Enhancement
+500,Penelope Ford,AEW,2016,9,180,0,0,0,0,0,0.57,3.2,0.4,3,30,Women's,Enhancement
+501,Bunny,AEW,2015,10,200,0,0,0,0,0,0.56,3.1,0.3,4,35,Women's,Enhancement
+502,Leva Bates,AEW,2010,15,240,0,0,0,0,0,0.53,2.9,0.2,2,38,Women's,Enhancement
+503,Red Velvet,AEW,2019,6,120,0,0,0,0,0,0.52,2.8,0.2,1,27,Women's,Enhancement
+504,Kiera Hogan,AEW,2015,10,160,0,0,0,0,0,0.54,3,0.2,2,30,Women's,Enhancement
+505,Diamante,AEW,2014,11,180,0,0,0,0,0,0.55,3.1,0.2,3,32,Women's,Enhancement
+506,Nyla Rose,AEW,2017,8,220,1,0,0,1,0,0.62,3.6,0.5,8,40,Women's,Midcard
+507,Emi Sakura,AEW,1995,30,580,0,1,0,1,0,0.59,3.5,0.4,25,48,Women's,Midcard
+508,Riho,AEW,2016,9,200,0,1,0,1,0,0.61,3.4,0.3,6,26,Women's,Midcard
+509,Yuka Sakazaki,AEW,2014,11,180,0,0,0,0,0,0.58,3.3,0.2,4,30,Women's,Enhancement
+510,Mizuki,AEW,2015,10,160,0,0,0,0,0,0.57,3.2,0.2,3,29,Women's,Enhancement
+511,Miyu Yamashita,AEW,2017,8,140,0,0,0,0,0,0.56,3.1,0.2,2,28,Women's,Enhancement
+512,Masha Slamovich,Impact,2018,7,180,0,0,0,0,0,0.63,3.5,0.3,4,26,Women's,Enhancement
+513,Courtney Rush,Impact,2009,16,320,0,0,0,0,0,0.58,3.3,0.2,6,38,Women's,Enhancement
+514,Gisele Shaw,Impact,2016,9,240,0,0,0,0,0,0.59,3.4,0.2,5,31,Women's,Enhancement
+515,Savannah Evans,Impact,2017,8,200,0,0,0,0,0,0.57,3.2,0.2,3,30,Women's,Enhancement
+516,Tasha Steelz,Impact,2015,10,280,0,1,1,2,0,0.61,3.5,0.3,8,32,Women's,Midcard
+517,Jordynne Grace,Impact,2014,11,320,1,1,1,3,1,0.64,3.6,0.4,12,30,Women's,Main Eventer
+518,Deonna Purrazzo,Impact,2013,12,380,2,1,1,4,0,0.65,3.7,0.5,15,31,Women's,Main Eventer
+519,Mickie James,Impact,1999,26,680,3,3,2,8,0,0.64,3.9,1.2,45,45,Women's,Legend
+520,Gail Kim,Impact,2000,25,620,4,3,1,8,0,0.65,4,1,48,48,Women's,Legend
+521,Mayu Iwatani,Stardom,2011,14,480,3,2,2,7,0,0.66,3.9,0.7,25,32,Women's,Main Eventer
+522,Giulia,Stardom,2019,6,220,2,1,1,4,1,0.68,3.8,0.5,12,28,Women's,Main Eventer
+523,Syuri,Stardom,2019,6,240,1,1,1,3,0,0.67,3.7,0.4,10,35,Women's,Main Eventer
+524,Tam Nakano,Stardom,2017,8,280,1,1,1,3,0,0.65,3.6,0.5,14,33,Women's,Main Eventer
+525,Utami Hayashishita,Stardom,2018,7,260,2,1,1,4,0,0.69,3.9,0.6,15,26,Women's,Main Eventer
+526,Saya Kamitani,Stardom,2019,6,220,1,1,1,3,0,0.66,3.7,0.4,11,26,Women's,Main Eventer
+527,Momo Watanabe,Stardom,2016,9,300,1,1,1,3,0,0.64,3.5,0.4,13,25,Women's,Midcard
+528,Starlight Kid,Stardom,2017,8,240,0,1,1,2,0,0.63,3.4,0.3,9,24,Women's,Midcard
+529,Natsupoi,Stardom,2018,7,200,0,0,1,1,0,0.61,3.3,0.3,7,26,Women's,Midcard
+530,Saki Kashima,Stardom,2013,12,320,0,0,0,0,0,0.58,3.1,0.2,5,31,Women's,Enhancement
+531,Fukigen Death,Stardom,2014,11,280,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+532,Ruaka,Stardom,2017,8,220,0,0,0,0,0,0.56,2.9,0.1,3,25,Women's,Enhancement
+533,Hanan,Stardom,2018,7,200,0,0,0,0,0,0.55,2.8,0.1,2,24,Women's,Enhancement
+534,Hina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+535,Rina,Stardom,2019,6,180,0,0,0,0,0,0.54,2.7,0.1,1,23,Women's,Enhancement
+536,Koguma,Stardom,2014,11,260,0,0,0,0,0,0.57,3,0.2,4,32,Women's,Enhancement
+537,Miyu Amasaki,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,21,Women's,Enhancement
+538,Tomoka Inaba,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+539,Waka Tsukiyama,Stardom,2022,3,100,0,0,0,0,0,0.52,2.5,0.1,0,20,Women's,Enhancement
+540,Mai Sakurai,Stardom,2021,4,120,0,0,0,0,0,0.53,2.6,0.1,0,22,Women's,Enhancement
+541,Kaito Kiyomiya,NOAH,2015,10,380,2,1,1,4,1,0.67,3.9,0.6,20,27,Heavyweight,Main Eventer
+542,Kenoh,NOAH,2006,19,580,3,2,2,7,0,0.66,3.8,0.5,32,41,Heavyweight,Main Eventer
+543,Katsuhiko Nakajima,NOAH,2004,21,680,2,3,2,7,0,0.65,3.7,0.5,38,42,Heavyweight,Main Eventer
+544,Go Shiozaki,NOAH,2005,20,620,3,2,2,7,0,0.64,3.8,0.5,35,42,Heavyweight,Main Eventer
+545,Naomichi Marufuji,NOAH,1998,27,780,4,4,3,11,0,0.67,4.1,0.8,55,45,Heavyweight,Main Eventer
+546,Takashi Sugiura,NOAH,1995,30,820,3,3,3,9,0,0.66,4,0.7,58,54,Heavyweight,Main Eventer
+547,Masa Kitamiya,NOAH,2010,15,420,0,1,1,2,0,0.61,3.5,0.3,15,37,Heavyweight,Midcard
+548,Yoshiki Inamura,NOAH,2016,9,280,0,0,0,0,0,0.58,3.3,0.2,6,30,Heavyweight,Enhancement
+549,Haoh,NOAH,2018,7,220,0,0,0,0,0,0.56,3.1,0.2,4,25,Heavyweight,Enhancement
+550,Nio,NOAH,2019,6,200,0,0,0,0,0,0.55,3,0.1,3,24,Heavyweight,Enhancement
