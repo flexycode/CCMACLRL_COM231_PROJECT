@@ -57,6 +57,12 @@ WWE management needs to understand what factors contribute to a wrestler's succe
 - Performance metric analysis
 - Predictive roster managemen
 
+## 🌐 References to any work
+
+This is the site [arXiv](https://arxiv.org/search/?query=wwe&searchtype=all&abstracts=show&order=-announced_date_first&size=50) wherein we need to use to provide references to any work that is not our own in our final paper.  
+
+Although we are still unable to find any similar to our work. Since I've come up to original work of mine, even in kaggle doesn't had a similar dataset of paper works.
+
 ## 📊 Dataset Description
 
 ### Primary Dataset: `wwe_rosters.csv`
