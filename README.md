@@ -42,9 +42,15 @@
 <!-- Background github cover with short introduction down below -->
 <img src="assets/All-Wrestling-Brand.jpg" />
 
-## 📋 Project Overview
+# 🏆 WWE Superstar Popularity Tier Prediction
 
 A comprehensive machine learning system that predicts WWE superstar popularity tiers (Main Eventer, Midcard, Enhancement) based on career statistics and performance metrics. This multi-class classification project demonstrates end-to-end ML pipeline development with robust validation and deployment-ready features.
+
+
+## 🎯 Project Overview
+
+This project implements a robust machine learning pipeline for classifying WWE superstars into popularity tiers based on various performance metrics and career statistics. The system features dynamic data acquisition, comprehensive exploratory data analysis, and multiple classification algorithms with hyperparameter optimization.
+
 
 <!-- Background github cover with short introduction down below -->
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXk2cnByenBzdHR2Y2plYmxyYnVoY2pjaWRlOTRjcTBrMWV3czI0diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TH1EAFhvE2ucRSMkPC/giphy.gif" width="300">
@@ -63,18 +69,56 @@ This is the site [arXiv](https://arxiv.org/search/?query=wwe&searchtype=all&abst
 
 Although we are still unable to find any similar to our work. Since I've come up to original work of mine, even in kaggle doesn't had a similar dataset of paper works.
 
-## 📊 Dataset Description
+## 📊 Dataset Features
 
-### Primary Dataset: `wwe_rosters.csv`
+### 💫 Primary Dataset: `wwe_rosters.csv`
 - **185 wrestlers** with comprehensive career statistics
 - **15+ features** including match history, title reigns, social media presence
 - **Target Variable**: `popularity_tier` (Main Eventer, Midcard, Enhancement)
 
-### External Validation: `other_brand_rosters.csv`
+### 💫 External Validation: `other_brand_rosters.csv`
 - **550 wrestlers** from various wrestling promotions (AEW, NJPW, Impact, etc.)
 - Used for model generalization testing
 
-### Key Features:
+### 🎪 Superstar Profile
+- **🧬 Basic Info**: Wrestler ID, Name, Brand, Age, Weight Class
+- **📅 Career Timeline**: Debut Year, Years Active
+- **⚔️ Match Statistics**: Total Matches, Avg Matches per Month, Career Win Percentage
+
+### 🏅 Championship History
+- **👑 Title Reigns**: World Titles, Secondary Titles, Tag Team Titles
+- **💎 Total Championships**: Combined title count
+- **⭐ Current Champion Status**: Binary indicator
+
+### 📈 Performance Metrics
+- **🎪 Main Event Appearances**: PPV main events count
+- **📱 Social Media Presence**: Followers in millions
+- **🔥 Finisher Popularity**: Move effectiveness rating
+
+
+## 🚀 Key Features
+
+### 🗃️ 1. **Dynamic Data Management**
+- 🔄 Robust data loading from GitHub with error handling
+- 🌐 Support for multiple datasets (WWE and other brands)
+- 📋 Comprehensive dataset summaries and validation
+
+### 🔍 2. **Advanced Exploratory Data Analysis**
+- ❌ Missing values analysis with visualizations
+- 🎯 Target variable distribution analysis
+- 📊 Comprehensive numerical feature analysis including:
+  - 📈 Distribution histograms with KDE
+  - 📦 Boxplots by popularity tier
+  - 🔗 Correlation heatmaps and insights
+  - 🔄 Feature pairplot analysis
+  - 📋 Statistical summaries
+
+### ⚙️ 3. **Sophisticated Feature Engineering**
+- 🎯 Dynamic feature creation (`matches_per_year`, `titles_per_year`, `main_event_frequency`)
+- 🏷️ Categorical feature encoding (`brand`, `weight_class`)
+- 📏 Standardized preprocessing pipeline
+
+### 🚀 Other key features
 - **Career Metrics**: `years_active`, `total_matches`, `career_win_percentage`
 - **Accolades**: `world_title_reigns`, `secondary_title_reigns`, `tag_title_reigns`
 - **Performance**: `avg_matches_per_month`, `main_evented_ppv`
@@ -97,22 +141,104 @@ Although we are still unable to find any similar to our work. Since I've come up
 - [FPW: Filipino Pro Wrestling Roster](https://www.filipinoprowrestling.com/roster)
 
 
+### 🤖 4. **Multi-Model Classification**
+Implementation of multiple classification algorithms:
+- 🌲 **Random Forest Classifier**
+- 🎯 **Support Vector Machine (SVM)**
+- 📈 **Gradient Boosting Classifier**
+- 📊 **Logistic Regression**
+- 👥 **K-Nearest Neighbors**
+- 🌳 **Decision Tree Classifier**
+
+### ⚡ 5. **Hyperparameter Optimization**
+- 🔧 GridSearchCV for optimal parameter tuning
+- ✅ Cross-validation with configurable folds
+- 📝 Comprehensive model evaluation
+
+### 📊 6. **Comprehensive Model Evaluation**
+- 🎯 Multiple performance metrics:
+  - ✅ Accuracy, Precision, Recall, F1-Score
+  - 📋 Classification reports
+  - 🎭 Confusion matrices
+- 🔄 Cross-validation scores
+
+## 🏆 Model Performance Metrics
+
+### 📈 Key Results from Analysis:
+- **Dataset Size**: 185 WWE superstars + 550 other brand superstars
+- **Feature Count**: 18 comprehensive metrics per superstar
+- **Target Distribution**: Multi-class classification across 3 tiers
+- **Cross-Validation**: 5-fold CV for robust performance estimation
+
+### 🎯 Evaluation Metrics Tracked:
+- **Overall Accuracy** - Total correct predictions
+- **Precision per Class** - Main Eventer, Midcard, Enhancement
+- **Recall per Class** - Sensitivity for each tier
+- **F1-Score** - Harmonic mean of precision and recall
+- **Confusion Matrix** - Detailed classification breakdown
+
+## 🛠 Technical Implementation
+
+### ⚙️ Configuration Management
+Centralized configuration class for dynamic parameter management:
+- 🌐 Data URLs and paths
+- 🤖 Model parameters and test configurations
+- 🎯 Feature engineering specifications
+- 🔧 Hyperparameter grids for all models
+- 🎨 Visualization settings
+
 ## 🏗️ Model Architecture
 
-### Multi-class Classification Approach
+- **📥 DataLoader**: Dynamic data acquisition and validation
+- **🔍 DataExplorer**: Comprehensive EDA with advanced visualizations
+- **🤖 ModelTrainer**: Multi-model training and evaluation framework
 
+### 🎨 Visualization Suite
+- 🎨 Custom color schemes for different popularity tiers
+- 📊 Multiple plot types (bar, pie, distribution, correlation, pairplot)
+- 📝 Statistical annotations and insights
+- 🎯 Professional-grade matplotlib and seaborn visualizations
+
+## 📊 Data Insights from EDA
+
+### 🎯 Target Distribution Analysis
+- Comprehensive analysis of popularity tier distribution
+- Statistical summary of class balance
+- Temporal analysis of tier distribution over debut years
+
+### 🔍 Feature Correlations
+- Identification of highly correlated features (>0.7)
+- Top feature correlations analysis
+- Pairplot visualization for key feature relationships
+
+### 📈 Statistical Summaries
+- Detailed descriptive statistics for all numerical features
+- Variance, skewness, and kurtosis analysis
+- Feature distribution insights
+
+## 🎮 Usage
+
+The notebook is organized into clear phases:
+
+1. **⚙️ Configuration & Imports** - Environment setup and library imports
+2. **📥 Data Loading & Exploration** - Dynamic data acquisition and initial analysis
+3. **🔍 Comprehensive EDA** - Detailed statistical and visual analysis
+4. **⚙️ Feature Engineering** - Creation of enhanced features
+5. **🤖 Model Training & Evaluation** - Multi-algorithm implementation
+6. **🔧 Hyperparameter Tuning** - Optimization for best performance
+7. **📊 Results & Insights** - Comprehensive model comparison
+
+## 🔧 Requirements
+
+```bash
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
 ```
-Data Pipeline:
-Raw Data → Preprocessing → Feature Engineering → Model Training → Evaluation → Deployment
 
-Model Stack:
-1. Baseline Models (6 classifiers)
-2. Hyperparameter Tuning (GridSearchCV)
-3. Ensemble Selection
-4. External Validation
-```
-
-
+<!-- Contributors down below, this is nothing let's delete this 
 ### Algorithm Selection Rationale
 
 | Model | Strengths | Use Case |
@@ -249,46 +375,43 @@ def predict_wwe_popularity(wrestler_data):
 - Prediction interpretability
 
 - Actionable insights generation
+-->
 
 ## 📁 Project Structure
 
 ```
 CCMACLRL_COM231_PROJECT/
 │
-├── assets/                      # Images and Background file
+├── 🎨assets/                             # Images and Background file
 │
-├── datasets/
-│   ├── wwe_rosters.csv          # Primary training data
-│   └── other_brand_rosters.csv  # External validation
+├── 📁datasets/
+│      └── 📁test/
+│      │   └── other_brand_rosters.csv  # External validation
+│      │
+│      └── 📁 training/ 
+│          └── wwe_rosters.csv          # Primary training data
 │
-├── models/
-│   ├── wwe_popularity_predictor.pkl
-│   └── training_logs/ [TBA EMPTY]
+├── model/
+│   └── 🌐 wwe_popularity_predictor.pkl
+│    
 │
 ├── notebook/
-│   └── WWE_Popularity_Prediction.ipynb
+│   └── 🐍 WWE_Popularity_Prediction.ipynb
 │
-├── src/                         # I will experiment this later
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── predict.py
-│   └── utils.py
 │
-├── tests/                       # I will experiment this later
-│   ├── test_preprocess.py
-│   └── test_model.py
+├── docs/                                # This folder is for research paper
+│   ├── 🔍 research_paper.pdf
+│    
 │
-├── docs/                        # Empty pa, this folder is for research paper
-│   ├── model_card.md
-│   └── api_documentation.md
-│
-├── LICENCE
-└── README.md
+├── 📄 LICENCE
+└── 📖 README.md
 ```
 
 <!-- Background github cover with short introduction down below -->
 <img src="assets/AEW-Dynamite.jpg" />
 
+
+<!--
 ## 🛠️ Installation & Usage
 
 ### Prerequisites
@@ -338,13 +461,30 @@ print(f"Confidence: {prediction['confidence']:.2%}")
 - **Storyline Planning**: Popularity-based booking
 
 - **Brand Strategy**: Cross-promotion analysis
+-->
 
+# 🏆 Popularity Tiers
+The system classifies superstars into three main tiers:
+
+- **🎪 Main Eventer:** Top-tier performers, championship contenders
+
+- **🥈 Midcard:** Regular performers with consistent appearances
+
+- **🌟 Enhancement:** Developing talent and roster support
 
 # 🔮 Future Enhancements
 
-```
-TBA
-```
+- 🔄 Real-time data integration from wrestling APIs
+
+- 🧠 Advanced ensemble methods and neural networks
+
+- 🌐 Web application for interactive predictions
+
+- 📊 Expanded feature set including match ratings and fan sentiment
+
+- 📱 Mobile app for on-the-go predictions
+
+- 🔍 Advanced feature importance analysis
 
 <!-- 🏆 Contributers down below -->
 # 🏆 Contributing     
@@ -418,11 +558,12 @@ Check the License tab for copyright permission
 # 🔭 Acknowledgements     
 
 <!--  Need to revise this background info of Professor Elizer Ponio Jr  -->
-### ✨ Professor
+### ✨ Professor Elizer Jr. D. Ponio
 
-```
-Coming Soon 
-```
+Professor Elizer Jr. Ponio is a Software engineer, lecturer, and Machine Learning engineer at the National University. With a Bachelor of Science degree and Master degree in Computer Science, he brings a strong foundation in computer science principles. 
+Prof. Ponio's expertise in software engineering and machine learning is evident in his teaching style and practical approach. 
+He is dedicated to providing students with a comprehensive understanding of the subject matter and incorporates real-world applications into his instruction. 
+Prof. Ponio's combination of academic qualifications, industry experience, and passion for teaching make him a valuable asset to the National University community.
 
 <!-- Always document your changes, pull-request, bugfix, updates, patch notes for this final project. Always use this "🧊 ML Project" for commiting message for "pushing code" or "Pull-request"   -->
 
@@ -447,6 +588,7 @@ Chronological list of updates, bug fixes, new features, and other modifications 
 🧊 ML Final Project
 
 ⭐ If you find this project useful, please give it a star on GitHub!
+🎯 Predicting wrestling stardom through data science and machine learning. Building the future of sports analytics one superstar at a time! 🏆
 
 <!-- This comment is intended for commiting message in pull-request 
 Always use this "🧊 Flight Booking" for commiting message for "Pull-request"
