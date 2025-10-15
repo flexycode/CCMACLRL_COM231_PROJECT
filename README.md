@@ -13,6 +13,7 @@
 ### Professor: [Elizer Ponio Jr](https://github.com/robitussin/)     
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=UVJSA2N39NU&list=RDUVJSA2N39NU&start_radio=1)
 ### Prerequisite: [None](https://www.youtube.com/watch?v=v3BBE7wtuIM&list=RDv3BBE7wtuIM&start_radio=1)
+### Kaggle: [WWE Popularity - Multiclass Classification](https://www.kaggle.com/code/flexycode/wwe-popularity-multiclass-classification)
 
 
 <!-- 🤖 Machine Learning 🤖 -->
