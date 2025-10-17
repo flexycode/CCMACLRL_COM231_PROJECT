@@ -14,7 +14,7 @@
 ### No. of Units: [3 Units](https://www.youtube.com/watch?v=UVJSA2N39NU&list=RDUVJSA2N39NU&start_radio=1)
 ### Prerequisite: [None](https://www.youtube.com/watch?v=v3BBE7wtuIM&list=RDv3BBE7wtuIM&start_radio=1)
 ### Kaggle: [WWE Popularity - Multiclass Classification](https://www.kaggle.com/code/flexycode/wwe-popularity-multiclass-classification)
-### Project Website: [Artificial Ledger Wrestlers Predictor](wwe.com)
+### Project Website: [Artificial Ledger Wrestlers Predictor](https://alt-wrestlers-predictor.netlify.app/)
 
 <!-- 🤖 Machine Learning 🤖 -->
 <div align="center">
@@ -70,7 +70,9 @@ This is the site [arXiv](https://arxiv.org/search/?query=wwe&searchtype=all&abst
 
 Although we are still unable to find any similar to our work. Since I've come up to original work of mine, even in kaggle doesn't had a similar dataset of paper works.
 
-<!-- https://alt-wrestlers-predictor.vercel.app  -->
+Out Partial WebApp 🌐 : https://alt-wrestlers-predictor.netlify.app/
+
+<!-- https://alt-wrestlers-predictor.netlify.app  -->
 
 ## 📊 Dataset Features
 
